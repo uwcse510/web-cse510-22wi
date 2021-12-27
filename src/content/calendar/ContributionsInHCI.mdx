@@ -1,0 +1,34 @@
+import { FormattedReading } from '../../components/FormattedReading';
+
+Read the framing paper:
+
+<ul>
+    <li key={props.readings.framing.title}>
+        <p><FormattedReading reading={props.readings.framing}/></p>
+    </li>
+</ul>
+
+Below are examples of CHI 2019 papers that correspond to Wobbrock’s types of research contribution in HCI.
+
+Select two additional readings to review, focusing on papers that are most likely to correspond to the contribution style(s) relevant in your potential project(s).
+You should not focus on the details of these papers, but rather their organization of the research and how it is presented.
+We include these to provide concrete examples of the contributions, but our in-class discussion will focus on the framing paper.
+
+<ul>
+    {Object.keys(props.readings.contributions).map(contributionCurrent => (
+        <li key={contributionCurrent}>
+            <p>{contributionCurrent}</p>
+            <ul>
+                {props.readings.contributions[contributionCurrent].map(readingCurrent => (
+                    <li key={readingCurrent.title}>
+                        <p><FormattedReading reading={readingCurrent}/></p>
+                    </li>
+                ))}
+            </ul>
+        </li>
+    ))}
+</ul>
+
+### Non-Standard Reading Format
+
+No reading report is assigned.
