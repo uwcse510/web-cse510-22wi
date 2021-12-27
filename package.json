@@ -1,0 +1,68 @@
+{
+    "name": "web-cse510-22wi",
+    "version": "0.0.1",
+    "description": "",
+    "scripts": {
+        "dev_serve": "node scripts/dev_serve.js",
+        "prod_build": "node scripts/prod_build.js",
+        "prod_serve": "node scripts/prod_serve.js"
+    },
+    "@comment reactSnap": [
+
+    ],
+    "reactSnap": {
+        "source": "dist"
+    },
+    "@comment dependencies": [
+    ],
+    "dependencies": {
+        "history": "5.x",
+        "luxon": "2.x",
+        "@mui/material": "5.x",
+        "@emotion/react": "11.x",
+        "@emotion/styled": "11.x",
+        "mobx": "6.x",
+        "mobx-react-lite": "3.x",
+        "mobx-react-router": "npm:@superwf/mobx-react-router@7.x",
+        "path-to-regexp": "6.x",
+        "react": "17.x",
+        "react-dom": "17.x",
+        "react-router": "6.x",
+        "react-router-dom": "6.x"
+    },
+    "@comment devDependencies": [
+
+    ],
+    "devDependencies": {
+        "@babel/core": "7.x",
+        "@babel/preset-env": "*",
+        "@babel/preset-react": "*",
+        "@mdx-js/loader": "*",
+        "@types/history": "*",
+        "@types/luxon": "*",
+        "@types/material-ui": "*",
+        "@types/node": "*",
+        "@types/react": "*",
+        "@types/react-dom": "*",
+        "@types/react-router": "*",
+        "@types/react-router-dom": "*",
+        "babel-loader": "*",
+        "copy-webpack-plugin": "*",
+        "eslint": "*",
+        "express": "*",
+        "file-loader": "*",
+        "html-webpack-plugin": "*",
+        "mini-css-extract-plugin": "*",
+        "react-snap": "*",
+        "rimraf": "*",
+        "source-map-loader": "*",
+        "tsconfig-paths-webpack-plugin": "*",
+        "ts-loader": "9.x",
+        "typescript": "*",
+        "url-loader": "*",
+        "webpack": "*",
+        "webpack-cli": "*",
+        "webpack-dev-middleware": "*",
+        "webpack-hot-middleware": "*"
+    }
+}
