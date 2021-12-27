@@ -2,6 +2,7 @@
 .idea
 
 # Build files
+/build
 /dist
 
 # Node dependencies
