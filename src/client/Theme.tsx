@@ -1,21 +1,21 @@
 import { createTheme } from "@mui/material/styles";
 
-// Useful for the future:
+// Useful for the future, regarding composition of themes:
 //
 // https://stackoverflow.com/questions/57630926/material-ui-theme-overrides-leveraging-theme-palette-colors
 
 const theme = createTheme({
-    // A purple and green taken from the DUB branding
+    // A purple and green palette taken from the DUB branding
     palette: {
         primary: {
-            // light: calculated
             main: '#4b2e83',
+            // light: calculated
             // dark: calculated
             // contrastText: calculated
         },
         secondary: {
-            // light: calculated
             main: '#4cdc31',
+            // light: calculated
             // dark: calculated
             // contrastText: calculated
         },
