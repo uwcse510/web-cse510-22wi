@@ -1,9 +1,9 @@
 import * as React from "react";
 
-import { Components } from "@mdx-js/react";
+import { MDXProviderComponents } from "@mdx-js/react";
 import { GeneratedLink } from "src/common/GeneratedLink";
 
-const components: Components = {
+const components: MDXProviderComponents = {
     a: props => {
         return (
             // @ts-ignore

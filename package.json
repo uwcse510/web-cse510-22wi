@@ -41,6 +41,8 @@
         "@types/history": "*",
         "@types/luxon": "*",
         "@types/material-ui": "*",
+        "@types/mdx": "*",
+        "@types/mdx-js__react": "*",
         "@types/node": "*",
         "@types/react": "*",
         "@types/react-dom": "*",
