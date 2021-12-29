@@ -1,18 +1,12 @@
 import {
-    Route,
-    Routes,
+    Outlet,
 } from 'react-router-dom'
 
 import {
     Box,
     ButtonGroup,
     Grid,
-    Paper
 } from '@mui/material'
-
-import {
-    GeneratedLink as Link
-} from '../common/GeneratedLink'
 
 import { NavButton } from "../common/NavButton"
 
@@ -24,27 +18,9 @@ import Exam from "../content/assignments/Exam.mdx"
 
 <Grid container spacing={2}>
     <Grid item xs={10}>
-        { /* TODO React Router v6 for Routes Component */ }
-        <Routes>
-            <Route path="/assignments">
-                <Overview />
-            </Route>
-            <Route path="/assignments/readings">
-                <Readings />
-            </Route>
-            <Route path="/assignments/project">
-                <Project />
-            </Route>
-            <Route path="/assignments/statisticslab">
-                <StatisticsLab />
-            </Route>
-            <Route path="/assignments/exam">
-                <Exam />
-            </Route>
-        </Routes>
+        <Outlet />
     </Grid>
     <Grid item xs={2}>
-        { /* TODO Clean up secondary hierarchy, add an outline */ }
         <Box role="navigation" aria-label="Assignments Links">
             <ButtonGroup orientation="vertical" color="primary" style={{width: "100%"}}>
                 <NavButton to="/assignments" match="equals">Overview</NavButton>
