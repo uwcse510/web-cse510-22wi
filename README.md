@@ -18,9 +18,16 @@ Requires Node.js and the Yarn package manager.
   npm install --global yarn
   ```
 
+## Installation of Javascript Dependencies
+
+```
+yarn install
+```
+Install dependencies from `yarn.lock`.
+
 ## Yarn Scripts
 
 ```
 yarn dev_serve
 ```
-Serve a debug build on http://127.0.0.1:3000, with hot reloading.
+Serve a debug build on `http://127.0.0.1:3000`, with hot reloading.
