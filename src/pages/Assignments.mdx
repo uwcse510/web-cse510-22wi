@@ -17,15 +17,15 @@ import Project from "../content/assignments/Project.mdx"
 import StatisticsLab from "../content/assignments/StatisticsLab.mdx"
 import Exam from "../content/assignments/Exam.mdx"
 
-const styleButtonGroup: SxProps = {
+export const styleButtonGroup = {
     width: "100%",
 }
 
-<Grid container spacing="2">
-    <Grid item xs="10">
+<Grid container spacing={2}>
+    <Grid item xs={10}>
         <Outlet />
     </Grid>
-    <Grid item xs="2">
+    <Grid item xs={2}>
         <Box role="navigation" aria-label="Assignments Links">
             <ButtonGroup orientation="vertical" color="primary" sx={styleButtonGroup}>
                 <NavButton to="/assignments" match="equals">Overview</NavButton>

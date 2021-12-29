@@ -14,6 +14,9 @@ import {
 // An outer Box then enables margin collapse.
 // An inner Box defines a margin against which content will collapse.
 //
+// This strategy turns out to not be so great because the MUI Grid is a flexbox,
+// within which there is no margin collapse. Leaving in place with this comment.
+//
 const stylePaper: SxProps = {
     marginTop: 2,
     marginBottom: 2,
@@ -27,6 +30,11 @@ const styleOuterBox: SxProps = {
 
 const styleInnerBox: SxProps = {
     margin: 3,
+
+    // Content typically begins with an H1
+    "h1:first-of-type": {
+        marginTop: "0px",
+    }
 }
 
 //
