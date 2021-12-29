@@ -16,8 +16,18 @@ import { useAppStore } from "../stores/AppStoreProvider";
 //
 // Styles
 //
+// Styles applied to the outer Button and inner Box are coordinated to
+// account for the size difference resulting from adding a selection border.
+//
 const styleButtonBase: SxProps = {
     color: "inherit",
+}
+
+const styleBoxBase: SxProps = {
+}
+
+const styleBox: SxProps = {
+    ...styleBoxBase,
 }
 
 const styleButton: SxProps = {
@@ -27,26 +37,19 @@ const styleButton: SxProps = {
     padding: "6px 16px 6px 16px",
 }
 
-const styleButtonSelected: SxProps = {
-    ...styleButtonBase,
-    // Reduce bottom padding to account for border
-    padding: "6px 16px 4px 16px",
-}
-
-const styleLabelBase: SxProps = {
-}
-
-const styleLabel: SxProps = {
-    ...styleLabelBase,
-}
-
-const styleLabelSelected: SxProps = {
-    ...styleLabelBase,
+const styleBoxSelected: SxProps = {
+    ...styleBoxBase,
     // Use a border to show the selection
     borderRadius: 0,
     borderBottomStyle: "solid",
     borderBottomWidth: "2px",
     borderBottomColor: "secondary.main",
+}
+
+const styleButtonSelected: SxProps = {
+    ...styleButtonBase,
+    // Reduce bottom padding to account for border
+    padding: "6px 16px 4px 16px",
 }
 
 //
@@ -86,7 +89,7 @@ export const NavButton: React.FunctionComponent<NavButtonProps> = observer((prop
     if (isSelected()) {
         return (
             <Button component={RouterLink} to={props.to} sx={styleButtonSelected}>
-                <Box sx={styleLabelSelected}>
+                <Box sx={styleBoxSelected}>
                     {props.children}
                 </Box>
             </Button>
@@ -94,7 +97,7 @@ export const NavButton: React.FunctionComponent<NavButtonProps> = observer((prop
     } else {
         return (
             <Button component={RouterLink} to={props.to} sx={styleButton}>
-                <Box sx={styleLabel}>
+                <Box sx={styleBox}>
                     {props.children}
                 </Box>
             </Button>

@@ -1,64 +1,38 @@
 import * as React from "react";
 
-// // Components for styling
-// import {
-//     createStyles,
-//     Theme,
-//     withStyles,
-//     WithStyles,
-// } from "@material-ui/core";
-
-// Components for layout
 import {
     Box,
     Paper,
+    SxProps,
 } from "@mui/material";
 
-//
-// A styled component, informed by documentation:
-//
-// https://material-ui.com/guides/typescript/
-//
 
-// //
-// // Declare the styling classes to be used in the component.
-// //
-// // Class names should not accidentally equal CSS properties,
-// // so we defensively prefix each class name with 'class'.
-// //
-// // A Typescript error will occur if styles do not reference the theme,
-// // in which case it is fine to remove the theme parameter
-// //
-// const styles = (theme: Theme) => createStyles({
-//     classPaper: {
-//         // Margins above and below the paper
-//         marginTop: theme.spacing(2),
-//         marginBottom: theme.spacing(2),
-//         // Creating a flex container ensures margins of things inside this won't collapse
-//         display: "flex",
-//         flexDirection: "column",
-//     },
-//     classOuterBox: {
-//         // We then need a box within which margins will collapse
-//         display: "block",
-//     },
-//     classInnerBox: {
-//         // And finally our margin inside the paper, content against the margin will collapse into this
-//         margin: theme.spacing(3),
-//     }
-// });
+//
+// Styles
+//
+// An outmost Paper is a flex container to prevent margin collapse.
+// An outer Box then enables margin collapse.
+// An inner Box defines a margin against which content will collapse.
+//
+const stylePaper: SxProps = {
+    marginTop: 2,
+    marginBottom: 2,
+    display: "flex",
+    flexDirection: "column",
+}
 
-// //
-// // Properties
-// //
-// // This example assumes a children property, but only allows that property.
-// // Styling a Component with additional properties (e.g., a Button)
-// // will also require extending those properties (e.g., extends ButtonProps, WithStyles<typeof styles>).
-// //
-// interface Props extends WithStyles<typeof styles> {
-//     children: React.ReactNode;
-// }
-interface Props extends React.PropsWithChildren<{}> {
+const styleOuterBox: SxProps = {
+    display: "block",
+}
+
+const styleInnerBox: SxProps = {
+    margin: 3,
+}
+
+//
+// Properties
+//
+interface DefaultLayoutProps extends React.PropsWithChildren<{}> {
 };
 
 /**
@@ -66,19 +40,10 @@ interface Props extends React.PropsWithChildren<{}> {
  * - Places margin above and below the paper.
  * - The margins of children will collapse with a margin on the interior of the Paper.
  */
-// const DefaultLayout = withStyles(styles)(({classes, ...props}: Props) => (
-//     <Paper className={classes.classPaper}>
-//         <Box className={classes.classOuterBox}>
-//             <Box className={classes.classInnerBox} role="main">
-//                 {props.children}
-//             </Box>
-//         </Box>
-//     </Paper>
-// ));
-export const DefaultLayout = (props: Props) => (
-    <Paper>
-        <Box>
-            <Box role="main">
+export const DefaultLayout = (props: DefaultLayoutProps) => (
+    <Paper sx={stylePaper}>
+        <Box sx={styleOuterBox}>
+            <Box role="main" sx={styleInnerBox}>
                 {props.children}
             </Box>
         </Box>
