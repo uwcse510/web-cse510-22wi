@@ -3,7 +3,7 @@ import * as React from "react";
 import { MDXProviderComponents } from "@mdx-js/react";
 import { GeneratedLink } from "src/common/GeneratedLink";
 
-const components: MDXProviderComponents = {
+export const MDXComponents: MDXProviderComponents = {
     a: props => {
         return (
             // @ts-ignore
@@ -12,4 +12,4 @@ const components: MDXProviderComponents = {
     }
 };
 
-export default components;
+export default MDXComponents;

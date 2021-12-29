@@ -1,5 +1,3 @@
-import { observable } from 'mobx';
-
 import { CourseCalendarStore } from './CourseCalendarStore';
 import { CourseInformationStore } from './CourseInformationStore';
 

@@ -75,7 +75,7 @@ interface Props extends React.PropsWithChildren<{}> {
 //         </Box>
 //     </Paper>
 // ));
-const DefaultLayout = (props: Props) => (
+export const DefaultLayout = (props: Props) => (
     <Paper>
         <Box>
             <Box role="main">

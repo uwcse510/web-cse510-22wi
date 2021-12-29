@@ -4,7 +4,7 @@ import { createTheme } from "@mui/material/styles";
 //
 // https://stackoverflow.com/questions/57630926/material-ui-theme-overrides-leveraging-theme-palette-colors
 
-const theme = createTheme({
+export const AppTheme = createTheme({
     // A purple and green palette taken from the DUB branding
     palette: {
         primary: {
@@ -22,4 +22,4 @@ const theme = createTheme({
     },
 });
 
-export default theme;
+export default AppTheme;
