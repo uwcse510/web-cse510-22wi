@@ -1,0 +1,34 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "experimentalDecorators": true,
+        "importHelpers": true,
+        "jsx": "react",
+        "lib": ["es6", "dom"],
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "paths": {
+            "src/*": ["src/*"]
+        },
+        "preserveConstEnums": true,
+        "removeComments": true,
+        "sourceMap": true,
+        "strictNullChecks": true,
+        "target": "es6"
+    },
+    "include": [
+        "src/client/**/*",
+        "src/common/**/*",
+        "src/components/**/*",
+        "src/content/**/*",
+        "src/pages/**/*",
+        "src/stores/**/*",
+        "src/types/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

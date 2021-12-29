@@ -1,0 +1,116 @@
+import { Box } from '@mui/material';
+
+import AssignmentsOverview from '../content/assignments/Overview.mdx';
+
+import { CourseInformationLink } from '../components/CourseInformation';
+
+import pathPhotoJames from '../assets/images/james_photo.jpg';
+import pathPhotoJina from '../assets/images/jina_photo.jpg';
+
+import {
+    Alert
+} from '@mui/material';
+
+<Alert severity='error' sx={{padding: 3, marginBottom: 2}}>Content is Under Development and Subject to Change</Alert>
+
+# Course Overview
+
+## Course Description
+
+This course provides an introduction to forms of contribution several major areas of research in Human-Computer Interaction (HCI).
+It is based in a combination of readings and discussion, a small statistics lab, and a self-defined project.
+The course readings will require preparing reports on a combination of historic framing papers and more recent contributions.
+This will help you examine what the HCI community considers a research contribution across a variety of problems,
+thus preparing you to understand and make meaningful research contributions in these and other areas of HCI.
+
+This course is explicitly not focused on the design methods commonly used in HCI practice.
+We do not assume a strong background in HCI (i.e., there is no undergraduate HCI prerequisite),
+but students seeking an introduction to effective design or the design process will be better served by CSE 440.
+
+The course project will require hands-on experience with HCI, while remaining open to different possibilities. 
+You might choose to design and implement a new piece of HCI technology, 
+or you might choose to design and execute an appropriately compelling study with HCI research implications.
+
+We will emphasize open discussion and feedback in all aspects of the course.
+
+## Learning Objectives
+
+- Understand and be able to differentiate forms of research contribution in HCI
+- Gain understanding of prior fundamental results that now frame areas of HCI research
+- Gain understanding of articulating new contributions in such areas of HCI research
+- Gain understanding of common HCI research methods
+
+## Course Staff
+
+<!-- TODO Determine a non-hacky way to get reasonable spacing here.
+          Problem is there's no margin collapse for a flexbox.
+          Tried to remove margin on children with nested selector,
+          but no nested selector appeared to have any effect.
+          Settled for manually-determined negative margins on the root Box.
+          Set negative margin to same as <p>, effectively collapsing those. -->
+<Box display="flex" flexDirection="row" style={{marginTop: "-14px", marginBottom: "-14px"}}>
+    <Box mr={2}>
+        <p>James Fogarty</p>
+        <p><img src={pathPhotoJames} height="150" alt="Photo of James Fogarty."/></p>
+    </Box>
+    <Box>
+        <p>Jina Suh</p>
+        <p><img src={pathPhotoJina} height="150" alt="Photo of Jina Suh."/></p>
+    </Box>
+</Box>
+
+## Course Coordination
+
+- Contact
+
+  Email all instructors at cse510-staff [at] cs.washington.edu.
+
+- Class Time & Location
+
+  Tuesdays & Thursdays, 10:00-11:20.
+
+  Conducted via Zoom, using meeting information distributed via email.
+
+- Office Hours
+
+  Via Zoom, by appointment and as scheduled for project meetings.
+
+## Assignments
+
+<AssignmentsOverview />
+
+## Grading
+
+The overall course grade will be computed as follows:
+
+- 20%: Readings and Reading Reports
+- 45%: Group Project
+  - 5%: Proposal Document and Presentation
+  - 5%: Milestone 1 Report and Presentation
+  - 5%: Milestone 2 Report and Presentation
+  - 30%: Final Report
+- 10%: Statistics Lab
+- 15%: Exam
+- 10%: Participation
+
+Much of the grading in this course is necessarily subjective.
+We will attempt to communicate expectations and feedback throughout the course,
+but it is your responsibility to communicate with us if you would like guidance in this regard.
+
+Project milestone grading will emphasize progress and preparation to engage with direction and feedback.
+Final project report grading will then consider overall execution.
+
+## Accommodations and Additional University Policies
+
+Additional university policies apply 
+(e.g., regarding Academic Integrity, Conduct, Disability Resources, Religious Accommodations):
+
+<https://registrar.washington.edu/staffandfaculty/syllabi-guidelines>
+
+Please do not hesitate to contact the course staff regarding these or any other accommodations.
+
+## Contributing
+
+This course website lives on GitHub:
+
+<p><CourseInformationLink linkName='linkGitHub' /></p>

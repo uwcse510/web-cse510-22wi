@@ -1,0 +1,45 @@
+import {
+    Outlet,
+} from 'react-router-dom'
+
+import {
+    Box,
+    ButtonGroup,
+    Grid,
+    SxProps,
+} from '@mui/material'
+
+import { NavButton } from "../common/NavButton"
+
+import Overview from "../content/assignments/Overview.mdx"
+import Readings from "../content/assignments/Readings.mdx"
+import Project from "../content/assignments/Project.mdx"
+import StatisticsLab from "../content/assignments/StatisticsLab.mdx"
+import Exam from "../content/assignments/Exam.mdx"
+
+export const styleButtonGroup = {
+    width: "100%",
+}
+
+import {
+    Alert
+} from '@mui/material';
+
+<Alert severity='error' sx={{padding: 3, marginBottom: 2}}>Content is Under Development and Subject to Change</Alert>
+
+<Grid container spacing={2}>
+    <Grid item xs={10}>
+        <Outlet />
+    </Grid>
+    <Grid item xs={2}>
+        <Box role="navigation" aria-label="Assignments Links">
+            <ButtonGroup orientation="vertical" color="primary" sx={styleButtonGroup}>
+                <NavButton to="/assignments" match="equals">Overview</NavButton>
+                <NavButton to="/assignments/readings">Readings</NavButton>
+                <NavButton to="/assignments/project">Project</NavButton>
+                <NavButton to="/assignments/statisticslab">Statistics Lab</NavButton>
+                <NavButton to="/assignments/exam">Exam</NavButton>
+            </ButtonGroup>
+        </Box>
+    </Grid>
+</Grid>
