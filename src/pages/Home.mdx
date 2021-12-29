@@ -7,6 +7,12 @@ import { CourseInformationLink } from '../components/CourseInformation';
 import pathPhotoJames from '../assets/images/james_photo.jpg';
 import pathPhotoJina from '../assets/images/jina_photo.jpg';
 
+import {
+    Alert
+} from '@mui/material';
+
+<Alert severity='error' sx={{padding: 3, marginBottom: 2}}>Content is Under Development and Subject to Change</Alert>
+
 # Course Overview
 
 ## Course Description
@@ -45,26 +51,29 @@ We will emphasize open discussion and feedback in all aspects of the course.
 <Box display="flex" flexDirection="row" style={{marginTop: "-14px", marginBottom: "-14px"}}>
     <Box mr={2}>
         <p>James Fogarty</p>
-        <p><img src={pathPhotoJames} height="150" alt="James Fogarty. Portrait."/></p>
+        <p><img src={pathPhotoJames} height="150" alt="Photo of James Fogarty."/></p>
     </Box>
     <Box>
         <p>Jina Suh</p>
-        <p><img src={pathPhotoJina} height="150" alt="Jina Suh. Portrait."/></p>
+        <p><img src={pathPhotoJina} height="150" alt="Photo of Jina Suh."/></p>
     </Box>
 </Box>
 
-## Basic Information
+## Course Coordination
 
-<!-- TODO Add support for DL formatting -->
-Contact
-: Email all instructors at cse510-staff [at] cs.washington.edu.
+- Contact
 
-Class Time & Location
-: Tuesdays & Thursdays, 10:00-11:20.
-: Conducted via Zoom, using meeting information distributed via email.
+  Email all instructors at cse510-staff [at] cs.washington.edu.
 
-Office Hours
-: Via Zoom, by appointment and as scheduled for project meetings.
+- Class Time & Location
+
+  Tuesdays & Thursdays, 10:00-11:20.
+
+  Conducted via Zoom, using meeting information distributed via email.
+
+- Office Hours
+
+  Via Zoom, by appointment and as scheduled for project meetings.
 
 ## Assignments
 
