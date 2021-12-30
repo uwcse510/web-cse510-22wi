@@ -1,6 +1,10 @@
 import * as React from 'react';
 import { FunctionComponent } from 'react';
 
+import {
+    Box,
+} from "@mui/material";
+
 import { Reading } from '../types/Reading';
 
 import FormattedReading from './FormattedReading';
@@ -70,6 +74,7 @@ export const CourseInformationFormattedReading: FunctionComponent<CourseInformat
  */
 interface CourseInformationLinkProps {
     linkName: keyof CourseInformationStore;
+    anchorText?: string;
 }
 
 /**
@@ -79,18 +84,22 @@ export const CourseInformationLink: FunctionComponent<CourseInformationLinkProps
     const store = useAppStore();
 
     // Check this because TypeScript doesn't ensure in MDX files
-    if (props.linkName in store.courseInformation === false) {
+    if (!(props.linkName in store.courseInformation)) {
         throw new Error('linkName must be in store.courseInformation.');
     }
-    if (props.linkName.startsWith('link') === false) {
+    if (!(props.linkName.startsWith('link'))) {
         throw new Error('linkName must start with "link".');
     }
 
     const link = store.courseInformation[props.linkName] as string;
+    let anchorText = link;
+    if (props.anchorText) {
+        anchorText = props.anchorText;
+    }
 
     if (link) {
-        return <GeneratedLink href={link}>{link}</GeneratedLink>;
+        return <GeneratedLink href={link}>{anchorText}</GeneratedLink>;
     } else {
-        return <span>Link to be added</span>
+        return <Box component="span" sx={{color: "red"}}>Link to be added</Box>;
     }
 }

@@ -18,16 +18,19 @@ export class CourseInformationStore {
     // Link to course GitHub
     linkGitHub: link = 'https://github.com/uwcse510/web-cse510-wi22';
 
+    // Link regarding accessible presentations
+    linkAccessiblePresentations: link = 'https://interactions.acm.org/archive/view/july-august-2017/making-your-presentation-accessible'
+
     //
     // Readings
     //
 
     // Link to the Canvas discussion forum
-    linkDiscussion: link = 'https://canvas.uw.edu/courses/1371984/discussion_topics';
+    linkDiscussion: link = null; // TODO 'https://canvas.uw.edu/courses/1371984/discussion_topics';
 
     // Links for the Visions of HCI discussion
-    linkVisionsOrganization: link = 'https://docs.google.com/document/d/1-QzEOq3zPusRUW6S31_QAeSpGD8rt13UUYJrVwDKY4Q/edit?usp=sharing';
-    linkSubmitVisions: link = 'https://canvas.uw.edu/courses/1371984/assignments/5389367';
+    linkVisionsOrganization: link = null; // TODO 'https://docs.google.com/document/d/1-QzEOq3zPusRUW6S31_QAeSpGD8rt13UUYJrVwDKY4Q/edit?usp=sharing';
+    linkSubmitVisions: link = null; // TODO 'https://canvas.uw.edu/courses/1371984/assignments/5389367';
 
     //
     // Project
@@ -48,27 +51,27 @@ export class CourseInformationStore {
         'by 11:59pm ' + DateTime.fromISO('2020-06-11').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
 
     // Link to a Canvas thread of potential project proposal ideas
-    linkProjectProposalIdeas: link = 'https://canvas.uw.edu/courses/1371984/discussion_topics/5340935';
+    linkProjectProposalIdeas: link = null; // TODO 'https://canvas.uw.edu/courses/1371984/discussion_topics/5340935';
     // Link to a Canvas folder of prior project proposals
-    linkProjectProposalSamples: link = 'https://canvas.uw.edu/courses/1371984/files/folder/project%20samples';
+    linkProjectProposalSamples: link = null; // TODO 'https://canvas.uw.edu/courses/1371984/files/folder/project%20samples';
     // Link to a calendar signup for early feedback meetings
-    linkProjectProposalEarlyFeedback: link = 'https://calendar.google.com/calendar/selfsched?sstoken=UUw1Q2o3dVVUcXUyfGRlZmF1bHR8NWNhYzYxNjgxNDdhMGNhYWMzMGE4OTYyOWNhOWIyZDU';
+    linkProjectProposalEarlyFeedback: link = null; // TODO 'https://calendar.google.com/calendar/selfsched?sstoken=UUw1Q2o3dVVUcXUyfGRlZmF1bHR8NWNhYzYxNjgxNDdhMGNhYWMzMGE4OTYyOWNhOWIyZDU';
     // Link to the current CHI format to use for report submission
-    linkProjectCHIFormat: link = 'https://chi2020.acm.org/authors/chi-proceedings-format/';
+    linkProjectCHIFormat: link = null; // TODO 'https://chi2020.acm.org/authors/chi-proceedings-format/';
 
     // Links to submit project components
-    linkSubmitProjectProposal: link = 'https://canvas.uw.edu/courses/1371984/assignments/5390906';
-    linkSubmitProjectRelatedResearch: link = 'https://canvas.uw.edu/courses/1371984/assignments/5464345';
-    linkSubmitProjectMilestone1: link = 'https://canvas.uw.edu/courses/1371984/assignments/5390939';
-    linkSubmitProjectMilestone2: link = 'https://canvas.uw.edu/courses/1371984/assignments/5390992';
-    linkSubmitProjectReport: link = 'https://canvas.uw.edu/courses/1371984/assignments/5391093';
+    linkSubmitProjectProposal: link = null; // TODO 'https://canvas.uw.edu/courses/1371984/assignments/5390906';
+    linkSubmitProjectRelatedResearch: link = null; // TODO 'https://canvas.uw.edu/courses/1371984/assignments/5464345';
+    linkSubmitProjectMilestone1: link = null; // TODO 'https://canvas.uw.edu/courses/1371984/assignments/5390939';
+    linkSubmitProjectMilestone2: link = null; // TODO 'https://canvas.uw.edu/courses/1371984/assignments/5390992';
+    linkSubmitProjectReport: link = null; // TODO 'https://canvas.uw.edu/courses/1371984/assignments/5391093';
 
     // Reading on paper writing
     readingWobbrockPaperWriting: Reading = {
         authorText: 'Jacob O. Wobbrock',
         title: 'Catchy Titles are Good: But Avoid Being Cute',
         publicationText: '2015',
-        link: 'http://faculty.washington.edu/wobbrock/pubs/Wobbrock-2015.pdf'
+        link: 'https://faculty.washington.edu/wobbrock/pubs/Wobbrock-2015.pdf'
     };
 
     //
@@ -80,8 +83,8 @@ export class CourseInformationStore {
     assignmentDateDueStatisticsLab: assignmentDate =
         'by 11:59pm ' + DateTime.fromISO('2020-05-31').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
 
-    linkStatisticsLab: link = 'https://canvas.uw.edu/files/65010646/download?download_frd=1';
-    linkSubmitStatisticsLab: link = 'https://canvas.uw.edu/courses/1371984/assignments/5390983';
+    linkStatisticsLab: link = null; // TODO 'https://canvas.uw.edu/files/65010646/download?download_frd=1';
+    linkSubmitStatisticsLab: link = null; // TODO 'https://canvas.uw.edu/courses/1371984/assignments/5390983';
 
     //
     // Exam
@@ -92,5 +95,5 @@ export class CourseInformationStore {
     assignmentDateDueExam: assignmentDate =
         'by 11:59pm ' + DateTime.fromISO('2020-06-08').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
 
-    linkSubmitExam: link = 'https://canvas.uw.edu/courses/1371984/assignments/5391063';
+    linkSubmitExam: link = null; // TODO 'https://canvas.uw.edu/courses/1371984/assignments/5391063';
 }
