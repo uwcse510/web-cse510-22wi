@@ -30,7 +30,7 @@ const createUi = () => {
             <ThemeProvider theme={AppTheme}>
                 <CssBaseline/>
                 <MDXProvider components={MDXComponents}>
-                    <MobxRouter routerStore={appStore.routerStore}>
+                    <MobxRouter basename={__PUBLICPATH__} routerStore={appStore.routerStore}>
                         <App/>
                     </MobxRouter>
                 </MDXProvider>

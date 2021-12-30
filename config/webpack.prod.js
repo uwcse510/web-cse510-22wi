@@ -15,13 +15,13 @@ module.exports = merge(common, {
 
     output: {
         path: paths.appBuildProd,
+        publicPath: paths.publicPathProd,
     },
 
     plugins: [
-        // Local execution of the app server
         new webpack.DefinePlugin({
             // Quotes around strings for compile-time text substitution
-            __API__: "'" + paths.appServerProd + "'",
+            __PUBLICPATH__: "'" + paths.publicPathProd + "'",
         }),
     ],
 });

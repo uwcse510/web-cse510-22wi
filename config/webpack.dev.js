@@ -14,15 +14,15 @@ module.exports = merge(common, {
 
     output: {
         path: paths.appBuildDev,
+        publicPath: paths.publicPathDev,
     },
 
     plugins: [
-        // Hot loading
-        new webpack.HotModuleReplacementPlugin(),
-        // Local execution of the app server
         new webpack.DefinePlugin({
             // Quotes around strings for compile-time text substitution
-            __API__: "'" + paths.appServerLocalDev + "'",
+            __PUBLICPATH__: "'" + paths.publicPathDev + "'",
         }),
+        // Hot loading
+        new webpack.HotModuleReplacementPlugin(),
     ],
 });
