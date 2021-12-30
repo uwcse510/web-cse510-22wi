@@ -62,8 +62,7 @@ export class CourseCalendarStore {
                     authorText: 'Jonathan Grudin',
                     title: 'A Moving Target - The Evolution of Human-Computer Interaction',
                     publicationText: 'Book Chapter',
-                    // TODO: Canvas link
-                    // link: 'https://canvas.uw.edu/files/63194617/download?download_frd=1'
+                    link: 'https://canvas.uw.edu/files/85805028/download?download_frd=1'
                 }
             ]
         },
@@ -145,6 +144,7 @@ export class CourseCalendarStore {
                         // TODO: Canvas link
                         // link: 'https://canvas.uw.edu/files/63210283/download?download_frd=1'
                     },
+                    // TODO: Add Phidgets
                     {
                         authorText: 'Roy Want, Trevor Pering, Gunner Danneels, Muthu Kumar, Murali Sundar, John Light',
                         title: 'The Personal Server: Changing the Way We Think about Ubiquitous Computing',
@@ -158,7 +158,6 @@ export class CourseCalendarStore {
                         publicationText: '2006',
                         link: 'http://worrydream.com/MagicInk/'
                     },
-                    // TODO: Add Phidgets
                 ]
             }/>,
         },
@@ -172,7 +171,7 @@ export class CourseCalendarStore {
                         authorText: 'Jacob O. Wobbrock, Julie A. Kientz',
                         title: 'Research Contributions in Human-Computer Interaction',
                         publicationText: 'Interactions, 2016',
-                        link: 'https://canvas.uw.edu/files/63210322/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/85805207/download?download_frd=1'
                     },
                     contributions: {
                         // TODO: Provide 2021 papers
@@ -326,15 +325,13 @@ export class CourseCalendarStore {
                     authorText: 'Herbert A. Simon',
                     title: 'The Science of Design: Creating the Artificial',
                     publicationText: 'Design Issues, 1988',
-                    // TODO: Canvas link
-                    // link: 'https://canvas.uw.edu/files/63210319/download?download_frd=1'
+                    link: 'https://canvas.uw.edu/files/85805201/download?download_frd=1'
                 },
                 {
                     authorText: 'Donald E. Stokes',
                     title: 'Pasteur’s Quadrant: Basic Science and Technological Innovation',
                     publicationText: 'Book Chapter, 1997',
-                    // TODO: Canvas link
-                    // link: 'https://canvas.uw.edu/files/63210343/download?download_frd=1'
+                    link: 'https://canvas.uw.edu/files/85805202/download?download_frd=1'
                 },
             ]
         },
