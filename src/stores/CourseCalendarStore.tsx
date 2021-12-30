@@ -144,6 +144,7 @@ export class CourseCalendarStore {
                         // TODO: Canvas link
                         // link: 'https://canvas.uw.edu/files/63210283/download?download_frd=1'
                     },
+                    // TODO: Add Phidgets
                     {
                         authorText: 'Roy Want, Trevor Pering, Gunner Danneels, Muthu Kumar, Murali Sundar, John Light',
                         title: 'The Personal Server: Changing the Way We Think about Ubiquitous Computing',
@@ -157,7 +158,6 @@ export class CourseCalendarStore {
                         publicationText: '2006',
                         link: 'http://worrydream.com/MagicInk/'
                     },
-                    // TODO: Add Phidgets
                 ]
             }/>,
         },
