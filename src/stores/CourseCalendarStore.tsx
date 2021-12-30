@@ -47,13 +47,13 @@ export class CourseCalendarStore {
         // Week 1
         //
         {
-            date: DateTime.fromISO('2020-03-31'),
+            date: DateTime.fromISO('2022-01-04'),
 
             dateTitle: 'Introduction and Overview',
             contentNonstandard: <ContentNoReading />,
         },
         {
-            date: DateTime.fromISO('2020-04-02'),
+            date: DateTime.fromISO('2022-01-06'),
 
             dateTitle: 'Human-Computer Interaction History',
             contentNonstandard: <ContentNoReading />,
@@ -62,7 +62,8 @@ export class CourseCalendarStore {
                     authorText: 'Jonathan Grudin',
                     title: 'A Moving Target - The Evolution of Human-Computer Interaction',
                     publicationText: 'Book Chapter',
-                    link: 'https://canvas.uw.edu/files/63194617/download?download_frd=1'
+                    // TODO: Canvas link
+                    // link: 'https://canvas.uw.edu/files/63194617/download?download_frd=1'
                 }
             ]
         },
@@ -70,7 +71,7 @@ export class CourseCalendarStore {
         // Week 2
         //
         {
-            date: DateTime.fromISO('2020-04-07'),
+            date: DateTime.fromISO('2022-01-11'),
 
             dateTitle: 'Visions of Human-Computer Interaction',
             contentNonstandard: <ContentVisionsOfHCI readings={
@@ -85,61 +86,71 @@ export class CourseCalendarStore {
                         authorText: 'Mark Weiser',
                         title: 'The Computer for the 21st Century',
                         publicationText: 'Scientific American, 1991',
-                        link: 'https://canvas.uw.edu/files/63210288/download?download_frd=1'
+                        // TODO: Canvas link
+                        // link: 'https://canvas.uw.edu/files/63210288/download?download_frd=1'
                     },
                     {
                         authorText: 'Roy Want, Andy Hopper, Veronica Falcão, Jonathan Gibbons',
                         title: 'The Active Badge Location System',
                         publicationText: 'TOIS 1992',
-                        link: 'https://canvas.uw.edu/files/63210285/download?download_frd=1'
+                        // TODO: Canvas link
+                        // link: 'https://canvas.uw.edu/files/63210285/download?download_frd=1'
                     },
                     {
                         authorText: 'James D. Hollan, Scott Stornetta',
                         title: 'Beyond Being There',
                         publicationText: 'CHI 1992',
-                        link: 'https://canvas.uw.edu/files/63210295/download?download_frd=1'
+                        // TODO: Canvas link
+                        // link: 'https://canvas.uw.edu/files/63210295/download?download_frd=1'
                     },
                     {
                         authorText: 'Pierre Wellner',
                         title: 'Interacting with Paper on the DigitalDesk',
                         publicationText: 'CACM 1993',
-                        link: 'https://canvas.uw.edu/files/63210290/download?download_frd=1'
+                        // TODO: Canvas link
+                        // link: 'https://canvas.uw.edu/files/63210290/download?download_frd=1'
                     },
                     {
                         authorText: 'Benjamin B. Bederson, James D. Hollan',
                         title: 'Pad++: A Zooming Graphical Interface for Exploring Alternate Interface Physics',
                         publicationText: 'UIST 1994',
-                        link: 'https://canvas.uw.edu/files/63210292/download?download_frd=1'
+                        // TODO: Canvas link
+                        // link: 'https://canvas.uw.edu/files/63210292/download?download_frd=1'
                     },
                     {
                         authorText: 'Hiroshi Ishii, Brygg Ullmer',
                         title: 'Tangible Bits: Towards Seamless Interfaces between People, Bits and Atoms',
                         publicationText: 'CHI 1997',
-                        link: 'https://canvas.uw.edu/files/63210298/download?download_frd=1'
+                        // TODO: Canvas link
+                        // link: 'https://canvas.uw.edu/files/63210298/download?download_frd=1'
                     },
                     {
                         authorText: 'Eric Horvitz',
                         title: 'Principles of Mixed-Initiative User Interfaces',
                         publicationText: 'CHI 1999',
-                        link: 'https://canvas.uw.edu/files/63210296/download?download_frd=1'
+                        // TODO: Canvas link
+                        // link: 'https://canvas.uw.edu/files/63210296/download?download_frd=1'
                     },
                     {
                         authorText: 'Ken Hinckley, Jeff Pierce, Mike Sinclair, Eric Horvitz',
                         title: 'Sensing Techniques for Mobile Interaction',
                         publicationText: 'UIST 2000',
-                        link: 'https://canvas.uw.edu/files/63210294/download?download_frd=1'
+                        // TODO: Canvas link
+                        // link: 'https://canvas.uw.edu/files/63210294/download?download_frd=1'
                     },
                     {
                         authorText: 'Claudio S. Pinhanez',
                         title: 'The Everywhere Displays Projector: A Device to Create Ubiquitous Graphical Interfaces',
                         publicationText: 'UbiComp 2001',
-                        link: 'https://canvas.uw.edu/files/63210283/download?download_frd=1'
+                        // TODO: Canvas link
+                        // link: 'https://canvas.uw.edu/files/63210283/download?download_frd=1'
                     },
                     {
                         authorText: 'Roy Want, Trevor Pering, Gunner Danneels, Muthu Kumar, Murali Sundar, John Light',
                         title: 'The Personal Server: Changing the Way We Think about Ubiquitous Computing',
                         publicationText: 'UbiComp 2002',
-                        link: 'https://canvas.uw.edu/files/63210286/download?download_frd=1'
+                        // TODO: Canvas link
+                        // link: 'https://canvas.uw.edu/files/63210286/download?download_frd=1'
                     },
                     {
                         authorText: 'Brett Victor',
@@ -147,11 +158,12 @@ export class CourseCalendarStore {
                         publicationText: '2006',
                         link: 'http://worrydream.com/MagicInk/'
                     },
+                    // TODO: Add Phidgets
                 ]
             }/>,
         },
         {
-            date: DateTime.fromISO('2020-04-09'),
+            date: DateTime.fromISO('2022-01-13'),
 
             dateTitle: 'Contributions in Human-Computer Interaction',
             contentNonstandard: <ContentContributionsInHCI readings={
@@ -163,6 +175,8 @@ export class CourseCalendarStore {
                         link: 'https://canvas.uw.edu/files/63210322/download?download_frd=1'
                     },
                     contributions: {
+                        // TODO: Provide 2021 papers
+/*
                         'Empirical': [
                             {
                                 authorText: 'Nithya Sambasivan, Amna Batool, Nova Ahmed, Tara Matthews, Kurt Thomas, Laura Sanely Gaytán-Lugo, David Nemer, Elie Bursztein, Elizabeth Churchill, Sunny Consolvo',
@@ -303,6 +317,7 @@ export class CourseCalendarStore {
                                 link: 'https://dl.acm.org/doi/10.1145/3290605.3300492'
                             },
                         ],
+ */
                     }
                 }
             } />,
@@ -311,16 +326,19 @@ export class CourseCalendarStore {
                     authorText: 'Herbert A. Simon',
                     title: 'The Science of Design: Creating the Artificial',
                     publicationText: 'Design Issues, 1988',
-                    link: 'https://canvas.uw.edu/files/63210319/download?download_frd=1'
+                    // TODO: Canvas link
+                    // link: 'https://canvas.uw.edu/files/63210319/download?download_frd=1'
                 },
                 {
                     authorText: 'Donald E. Stokes',
                     title: 'Pasteur’s Quadrant: Basic Science and Technological Innovation',
                     publicationText: 'Book Chapter, 1997',
-                    link: 'https://canvas.uw.edu/files/63210343/download?download_frd=1'
+                    // TODO: Canvas link
+                    // link: 'https://canvas.uw.edu/files/63210343/download?download_frd=1'
                 },
             ]
         },
+/*
         //
         // Week 3
         //
@@ -713,5 +731,6 @@ export class CourseCalendarStore {
             dateTitle: 'Project Final Report Due',
             contentNonstandard: <ContentDueProjectFinalReport />
         },
+*/
     ];
 }
