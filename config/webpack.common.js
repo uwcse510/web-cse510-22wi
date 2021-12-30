@@ -1,9 +1,6 @@
 const paths = require('./paths');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const webpack = require('webpack');
 const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
-const path = require("path");
 
 module.exports = {
     entry: {
@@ -17,7 +14,6 @@ module.exports = {
     },
 
     output: {
-        publicPath: '/',
         filename: '[name].[fullhash].js',
     },
 
@@ -55,16 +51,19 @@ module.exports = {
             {
                 test: /\.(jpg|png)$/,
                 type: 'asset/resource',
+                generator: {
+                    filename: 'assets/[name][ext]'
+                },
             },
         ],
     },
 
     plugins: [
         new HtmlWebpackPlugin({
+            // Configuration:  https://github.com/jantimon/html-webpack-plugin
             template: paths.appIndexTemplate,
-        }),
-        new CopyWebpackPlugin({
-            patterns: [{ from: 'src/assets/', to: 'assets' }],
+            // base: Not apparently needed with publicPath defined in output
+            // publicPath: Not apparently needed with publicPath defined in output
         }),
     ],
 };

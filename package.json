@@ -7,37 +7,41 @@
         "prod_build": "node scripts/prod_build.js",
         "prod_serve": "node scripts/prod_serve.js"
     },
-    "@comment reactSnap": [
-
-    ],
+    "@comment reactSnap": [],
     "reactSnap": {
-        "source": "dist"
+        "source": "dist",
+        "publicPath": "/courses/cse510/22wi/"
     },
-    "@comment dependencies": [
-    ],
+    "@comment dependencies": [],
     "dependencies": {
-        "history": "5.x",
-        "luxon": "2.x",
-        "@mui/material": "5.x",
         "@emotion/react": "11.x",
         "@emotion/styled": "11.x",
+        "history": "5.x",
+        "luxon": "2.x",
         "mobx": "6.x",
         "mobx-react-lite": "3.x",
         "mobx-react-router": "npm:@superwf/mobx-react-router@7.x",
+        "@mui/material": "5.x",
         "path-to-regexp": "6.x",
         "react": "17.x",
         "react-dom": "17.x",
         "react-router": "6.x",
         "react-router-dom": "6.x"
     },
-    "@comment devDependencies": [
-
-    ],
+    "@comment devDependencies": [],
     "devDependencies": {
-        "@babel/core": "7.x",
+        "@babel/core": "*",
         "@babel/preset-env": "*",
         "@babel/preset-react": "*",
+        "babel-loader": "*",
+        "eslint": "*",
+        "express": "*",
+        "html-webpack-plugin": "*",
         "@mdx-js/loader": "*",
+        "react-snap": "*",
+        "rimraf": "*",
+        "ts-loader": "*",
+        "tsconfig-paths-webpack-plugin": "*",
         "@types/history": "*",
         "@types/luxon": "*",
         "@types/material-ui": "*",
@@ -48,22 +52,8 @@
         "@types/react-dom": "*",
         "@types/react-router": "*",
         "@types/react-router-dom": "*",
-        "babel-loader": "*",
-        "copy-webpack-plugin": "*",
-        "eslint": "*",
-        "express": "*",
-        "file-loader": "*",
-        "html-webpack-plugin": "*",
-        "mini-css-extract-plugin": "*",
-        "react-snap": "*",
-        "rimraf": "*",
-        "source-map-loader": "*",
-        "tsconfig-paths-webpack-plugin": "*",
-        "ts-loader": "9.x",
         "typescript": "*",
-        "url-loader": "*",
         "webpack": "*",
-        "webpack-cli": "*",
         "webpack-dev-middleware": "*",
         "webpack-hot-middleware": "*"
     }
