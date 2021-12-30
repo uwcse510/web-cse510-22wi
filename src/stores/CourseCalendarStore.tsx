@@ -85,72 +85,67 @@ export class CourseCalendarStore {
                         authorText: 'Mark Weiser',
                         title: 'The Computer for the 21st Century',
                         publicationText: 'Scientific American, 1991',
-                        // TODO: Canvas link
-                        // link: 'https://canvas.uw.edu/files/63210288/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/85803917/download?download_frd=1'
                     },
                     {
                         authorText: 'Roy Want, Andy Hopper, Veronica Falcão, Jonathan Gibbons',
                         title: 'The Active Badge Location System',
                         publicationText: 'TOIS 1992',
-                        // TODO: Canvas link
-                        // link: 'https://canvas.uw.edu/files/63210285/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/85803915/download?download_frd=1'
                     },
                     {
                         authorText: 'James D. Hollan, Scott Stornetta',
                         title: 'Beyond Being There',
                         publicationText: 'CHI 1992',
-                        // TODO: Canvas link
-                        // link: 'https://canvas.uw.edu/files/63210295/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/85803912/download?download_frd=1'
                     },
                     {
                         authorText: 'Pierre Wellner',
                         title: 'Interacting with Paper on the DigitalDesk',
                         publicationText: 'CACM 1993',
-                        // TODO: Canvas link
-                        // link: 'https://canvas.uw.edu/files/63210290/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/85803918/download?download_frd=1'
                     },
                     {
                         authorText: 'Benjamin B. Bederson, James D. Hollan',
                         title: 'Pad++: A Zooming Graphical Interface for Exploring Alternate Interface Physics',
                         publicationText: 'UIST 1994',
-                        // TODO: Canvas link
-                        // link: 'https://canvas.uw.edu/files/63210292/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/85803910/download?download_frd=1'
                     },
                     {
                         authorText: 'Hiroshi Ishii, Brygg Ullmer',
                         title: 'Tangible Bits: Towards Seamless Interfaces between People, Bits and Atoms',
                         publicationText: 'CHI 1997',
-                        // TODO: Canvas link
-                        // link: 'https://canvas.uw.edu/files/63210298/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/85803914/download?download_frd=1'
                     },
                     {
                         authorText: 'Eric Horvitz',
                         title: 'Principles of Mixed-Initiative User Interfaces',
                         publicationText: 'CHI 1999',
-                        // TODO: Canvas link
-                        // link: 'https://canvas.uw.edu/files/63210296/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/85803913/download?download_frd=1'
                     },
                     {
                         authorText: 'Ken Hinckley, Jeff Pierce, Mike Sinclair, Eric Horvitz',
                         title: 'Sensing Techniques for Mobile Interaction',
                         publicationText: 'UIST 2000',
-                        // TODO: Canvas link
-                        // link: 'https://canvas.uw.edu/files/63210294/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/85803911/download?download_frd=1'
                     },
                     {
                         authorText: 'Claudio S. Pinhanez',
                         title: 'The Everywhere Displays Projector: A Device to Create Ubiquitous Graphical Interfaces',
                         publicationText: 'UbiComp 2001',
-                        // TODO: Canvas link
-                        // link: 'https://canvas.uw.edu/files/63210283/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/85804223/download?download_frd=1'
                     },
-                    // TODO: Add Phidgets
+                    {
+                        authorText: 'Saul Greenberg, Chester Fitchett',
+                        title: 'Phidgets: easy development of physical interfaces through physical widgets',
+                        publicationText: 'UIST 2001',
+                        link: 'https://canvas.uw.edu/files/85810296/download?download_frd=1'
+                    },
                     {
                         authorText: 'Roy Want, Trevor Pering, Gunner Danneels, Muthu Kumar, Murali Sundar, John Light',
                         title: 'The Personal Server: Changing the Way We Think about Ubiquitous Computing',
                         publicationText: 'UbiComp 2002',
-                        // TODO: Canvas link
-                        // link: 'https://canvas.uw.edu/files/63210286/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/85803916/download?download_frd=1'
                     },
                     {
                         authorText: 'Brett Victor',
@@ -174,149 +169,146 @@ export class CourseCalendarStore {
                         link: 'https://canvas.uw.edu/files/85805207/download?download_frd=1'
                     },
                     contributions: {
-                        // TODO: Provide 2021 papers
-/*
                         'Empirical': [
                             {
-                                authorText: 'Nithya Sambasivan, Amna Batool, Nova Ahmed, Tara Matthews, Kurt Thomas, Laura Sanely Gaytán-Lugo, David Nemer, Elie Bursztein, Elizabeth Churchill, Sunny Consolvo',
-                                title: '"They don’t leave us alone anywhere we go": Gender and Digital Abuse in South Asia',
-                                publicationText: 'CHI 2019',
-                                link: 'https://dl.acm.org/doi/10.1145/3290605.3300232'
+                                authorText: 'Mohit Jain, Nirmalendu Diwakar, Manohar Swaminathan',
+                                title: 'Smartphone Usage by Expert Blind Users',
+                                publicationText: 'CHI 2021',
+                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445074'
                             },
                             {
-                                authorText: 'John Harris, Mark Hancock',
-                                title: 'To Asymmetry and Beyond!: Improving Social Connectedness by Increasing Designed Interdependence in Cooperative Play',
-                                publicationText: 'CHI 2019',
-                                link: 'https://dl.acm.org/doi/10.1145/3290605.3300239'
+                                authorText: 'Maia J Boyd, Jamar L Sullivan, Marshini Chetty, Blase Ur',
+                                title: 'Understanding the Security and Privacy Advice Given to Black Lives Matter Protesters',
+                                publicationText: 'CHI 2021',
+                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445061'
                             },
                             {
-                                authorText: 'Tawanna Dillahunt, Sylvia Simioni, Xuecong Xu',
-                                title: 'Online Grocery Delivery Services: An Opportunity to Address Food Disparities in Transportation-scarce Areas',
-                                publicationText: 'CHI 2019',
-                                link: 'https://dl.acm.org/doi/10.1145/3290605.3300879'
+                                authorText: 'Sachin R Pendse, Amit Sharma, Aditya Vashistha, Munmun de Choudhury, Neha Kumar',
+                                title: '"Can I Not Be Suicidal on a Sunday?": Understanding Technology-Mediated Pathways to Mental Health Support',
+                                publicationText: 'CHI 2021',
+                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445410'
                             },
                         ],
                         'Artifact': [
                             {
-                                authorText: 'Jotaro Shigeyama, Takeru Hashimoto, Shigeo Yoshida, Takuji Narumi, Tomohiro Tanikawa, Michitaka Hirose',
-                                title: 'Transcalibur: A Weight Shifting Virtual Reality Controller for 2D Shape Rendering based on Computational Perception Model',
-                                publicationText: 'CHI 2019',
-                                link: 'https://dl.acm.org/doi/10.1145/3290605.3300241'
+                                authorText: 'Wolf Kienzle, Eric Whitmire, Chris Rittaler, Hrvoje Benko',
+                                title: 'ElectroRing: Subtle Pinch and Touch Detection with a Ring',
+                                publicationText: 'CHI 2021',
+                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445094'
                             },
                             {
-                                authorText: 'Carrie J Cai, Emily Reif, Narayan Hegde, Jason Hipp, Been Kim, Daniel Smilkov, Martin Wattenberg, Fernanda Viegas, Greg S Corrado, Martin Stumpe, Michael Terry',
-                                title: 'Human-Centered Tools for Coping with Imperfect Algorithms During Medical Decision-Making',
-                                publicationText: 'CHI 2019',
-                                link: 'https://dl.acm.org/doi/10.1145/3290605.3300234'
+                                authorText: 'Yiyue Luo, Kui Wu, Tomás Palacios, and Wojciech Matusik',
+                                title: 'KnitUI: Fabricating Interactive and Sensing Textiles with Machine Knitting',
+                                publicationText: 'CHI 2021',
+                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445780'
                             },
                             {
-                                authorText: 'Manaswi Saha, Michael Saugstad, Hanuma Teja Maddali, Aileen Zeng, Ryan Holland, Steven Bower, Aditya Dash, Sage Chen, Anthony Li, Kotaro Hara, Jon Froehlich',
-                                title: 'Project Sidewalk: A Web-based Crowdsourcing Tool for Collecting Sidewalk Accessibility Data At Scale',
-                                publicationText: 'CHI 2019',
-                                link: 'https://dl.acm.org/doi/10.1145/3290605.3300292'
+                                authorText: 'Richen Liu, Min Gao, Shunlong Ye, and Jiang Zhang',
+                                title: 'IGScript: An Interaction Grammar for Scientific Data Presentation',
+                                publicationText: 'CHI 2021',
+                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445535'
                             },
                         ],
                         'Methodological': [
                             {
-                                authorText: 'Alexis Hiniker, Jon Froehlich, Mingrui Ray Zhang, Erin Beneteau',
-                                title: 'Anchored Audio Sampling: A Seamless Method for Exploring Children’s Thoughts During Deployment Studies',
-                                publicationText: 'CHI 2019',
-                                link: 'https://dl.acm.org/doi/10.1145/3290605.3300238'
+                                authorText: 'Paweł W. Woźniak, Jakob Karolus, Florian Lang, Caroline Eckerth, Johannes Schöning, Yvonne Rogers, Jasmin Niess',
+                                title: 'Creepy Technology:What Is It and How Do You Measure It?',
+                                publicationText: 'CHI 2021',
+                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445299'
                             },
                             {
-                                authorText: 'Cara Wilson, Margot Brereton, Bernd Ploderer, Laurianne Sitbon',
-                                title: 'Co-Design Beyond Words: "Moments of Interaction" with Minimally-Verbal Children on the Autism Spectrum',
-                                publicationText: 'CHI 2019',
-                                link: 'https://dl.acm.org/doi/10.1145/3290605.3300251'
+                                authorText: 'Aoyu Wu, Liwenhan Xie, Bongshin Lee, Yun Wang, Weiwei Cui, Huamin Qu',
+                                title: 'Learning to Automate Chart Layout Configurations Using Crowdsourced Paired Comparison',
+                                publicationText: 'CHI 2021',
+                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445179'
                             },
                             {
-                                authorText: 'Juergen Baumgartner, Naomi Frei, Mascha Kleinke, Juergen Sauer, Andreas Sonderegger',
-                                title: 'Pictorial System Usability Scale (P-SUS): Developing an Instrument for Measuring Perceived Usability',
-                                publicationText: 'CHI 2019',
-                                link: 'https://dl.acm.org/doi/10.1145/3290605.3300299'
+                                authorText: 'Audrey Desjardins, Heidi R. Biggs',
+                                title: 'Data Epics: Embarking on Literary Journeys of Home Internet of Things Data',
+                                publicationText: 'CHI 2021',
+                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445241'
                             },
                         ],
                         'Theoretical': [
                             {
-                                authorText: 'Lucas Franco Colusso, Ridley Jones, Sean A. Munson, Gary Hsieh',
-                                title: 'A Translational Science Model for HCI',
-                                publicationText: 'CHI 2019',
-                                link: 'https://dl.acm.org/doi/10.1145/3290605.3300231'
+                                authorText: 'Emeline Brulé, Gilles Bailly',
+                                title: '”Beyond 3D printers”: Understanding Long-Term Digital Fabrication Practices for the Education of Visually Impaired or Blind Youth',
+                                publicationText: 'CHI 2021',
+                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445403'
                             },
                             {
-                                authorText: 'Jocelyn Spence',
-                                title: 'Inalienability: Understanding Digital Gifts',
-                                publicationText: 'CHI 2019',
-                                link: 'https://dl.acm.org/doi/10.1145/3290605.3300887'
+                                authorText: 'Florian “Floyd” Mueller, Tim Dwyer, Sarah Goodwin, Kim Marriott, Jialin Deng, Han D. Phan, Jionghao Lin, Kun-Ting Chen, Yan Wang, Rohit Ashok Khot',
+                                title: 'Data as Delight: Eating data',
+                                publicationText: 'CHI 2021',
+                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445218'
                             },
                             {
-                                authorText: 'Ali Alkhatib, Michael Bernstein',
-                                title: 'Street-Level Algorithms: A Theory at the Gaps Between Policy and Decisions',
-                                publicationText: 'CHI 2019',
-                                link: 'https://dl.acm.org/doi/10.1145/3290605.3300760'
+                                authorText: 'Miguel Bruns, Stijn Ossevoort, Marianne Graves Petersen',
+                                title: 'Expressivity in Interaction: A Framework for Design',
+                                publicationText: 'CHI 2021',
+                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445231'
                             },
                         ],
                         'Benchmark / Dataset': [
                             {
-                                authorText: 'Matin Yarmand, Dongwook Yoon, Samuel Dodson, Ido Roll, Sidney S Fels',
-                                title: '"Can you believe [1:21]?!": Content and Time-Based Reference Patterns in Video Comments',
-                                publicationText: 'CHI 2019',
-                                link: 'https://dl.acm.org/doi/10.1145/3290605.3300719'
+                                authorText: 'Axel Antoine, Sylvain Malacria, Nicolai Marquardt, Géry Casiez',
+                                title: 'Interaction Illustration Taxonomy: Classification of Styles and Techniques for Visually Representing Interaction Scenarios',
+                                publicationText: 'CHI 2021',
+                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445586'
+                            }, 
+                            {
+                                authorText: 'Eiji Hayashi, Jaime Lien, Nicholas Gillian, Leonardo Giusti, Dave Weber, Jin Yamanaka, Lauren Bedal, Ivan Poupyrev',
+                                title: 'RadarNet: Efficient Gesture Recognition Technique Utilizing a Miniature Radar Sensor',
+                                publicationText: 'CHI 2021',
+                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445367'
                             },
                             {
-                                authorText: 'Radu-Daniel Vatavu, Ovidiu-Ciprian Ungurean',
-                                title: 'Stroke-Gesture Input for People with Motor Impairments: Empirical Results & Research Roadmap',
-                                publicationText: 'CHI 2019',
-                                link: 'https://dl.acm.org/doi/10.1145/3290605.3300445'
-                            },
-                            {
-                                authorText: 'Kevin Hu, Snehalkumar ‘Neil’ S. Gaikwad, Michiel Bakker, Madelon Hulsebos, Emanuel Zgraggen, César Hidalgo, Tim Kraska, Guoliang Li, Arvind Satyanarayan, Çağatay Demiralp',
-                                title: 'VizNet: Towards A Large-Scale Visualization Learning and Benchmarking Repository',
-                                publicationText: 'CHI 2019',
-                                link: 'https://dl.acm.org/doi/10.1145/3290605.3300892'
+                                authorText: 'Vinoth Pandian Sermuga Pandian, Sarah Suleri, and Prof. Dr. Matthias Jarke',
+                                title: 'UISketch: A Large-Scale Dataset of UI Element Sketches',
+                                publicationText: 'CHI 2021',
+                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445784'
                             },
                         ],
                         'Survey': [
                             {
-                                authorText: 'Mehmet Aydın Baytaş, Damla Çay, Yuchong Zhang, Mohammad Obaid, Asım Evren Yantaç, Morten Fjeld',
-                                title: 'The Design of Social Drones: A Review of Studies on Autonomous Flyers in Inhabited Environments',
-                                publicationText: 'CHI 2019',
-                                link: 'https://dl.acm.org/doi/10.1145/3290605.3300480'
+                                authorText: 'Kelly Mack, Emma McDonnell, Dhruv Jain, Lucy Lu Wang, Jon E. Froehlich, Leah Findlater',
+                                title: 'What Do We Mean by "Accessibility Research"?: A Literature Survey of Accessibility Papers in CHI and ASSETS from 1994 to 2019',
+                                publicationText: 'CHI 2021',
+                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445412'
                             },
                             {
-                                authorText: 'Frederik Brudy, Christian Holz, Roman Rädle, Chi-Jui Wu, Steven Houben, Clemens Nylandsted Klokmose, Nicolai Marquardt',
-                                title: 'Cross-Device Taxonomy: Survey, Opportunities and Challenges of Interactions Spanning Across Multiple Devices',
-                                publicationText: 'CHI 2019',
-                                link: 'https://dl.acm.org/doi/10.1145/3290605.3300792'
+                                authorText: 'Cayley MacArthur, Arielle Grinberg, Daniel Harley, Mark Hancock',
+                                title: 'You’re Making Me Sick: A Systematic Review of How Virtual Reality Research Considers Gender & Cybersickness',
+                                publicationText: 'CHI 2021',
+                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445701'
                             },
                             {
-                                authorText: 'Ana Caraban, Evangelos Karapanos, Pedro Campos, Daniel Gonçalves',
-                                title: '23 Ways to Nudge: A Review of Technology-Mediated Nudging in Human-Computer Interaction',
-                                publicationText: 'CHI 2019',
-                                link: 'https://dl.acm.org/doi/10.1145/3290605.3300733'
+                                authorText: 'Anjali Devakumar, Jay Modh, Bahador Saket, Eric P. S. Baumer, Munmun De Choudhury',
+                                title: 'A Review on Strategies for Data Collection, Reflection, and Communication in Eating Disorder Apps',
+                                publicationText: 'CHI 2021',
+                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445670'
                             },
                         ],
                         'Opinion': [
                             {
-                                authorText: 'Laura Devendorf, Kristina Andersen, Daniela K. Rosner, Ron Wakkary, James Pierce.',
-                                title: 'From HCI to HCI-Amusement: Strategies for Engaging what New Technology Makes Old',
-                                publicationText: 'CHI 2019',
-                                link: 'https://dl.acm.org/doi/10.1145/3290605.3300265'
+                                authorText: 'Colin M. Gray, Cristiana Santos, Nataliia Bielova, Michael Toth, Damian Clifford',
+                                title: 'Dark Patterns and the Legal Requirements of Consent Banners: An Interaction Criticism Perspective',
+                                publicationText: 'CHI 2021',
+                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445779'
                             },
                             {
-                                authorText: 'Sarah Inman, David Ribes',
-                                title: '"Beautiful Seams": Strategic Revelations and Concealments',
-                                publicationText: 'CHI 2019',
-                                link: 'https://dl.acm.org/doi/10.1145/3290605.3300508'
+                                authorText: 'Eric Corbett, Christopher Le Dantec',
+                                title: 'Designing Civic Technology with Trust',
+                                publicationText: 'CHI 2021',
+                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445341'
                             },
                             {
-                                authorText: 'Richmond Y. Wong, Deirdre Mulligan',
-                                title: 'Bringing Design to the Privacy Table: Broadening "Design" in "Privacy by Design" Through the Lens of HCI',
-                                publicationText: 'CHI 2019',
-                                link: 'https://dl.acm.org/doi/10.1145/3290605.3300492'
+                                authorText: 'Jiamin Dai, Karyn Moffatt',
+                                title: 'Surfacing the Voices of People with Dementia: Strategies for Effective Inclusion of Proxy Stakeholders in Qualitative Research',
+                                publicationText: 'CHI 2021',
+                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445756'
                             },
                         ],
- */
                     }
                 }
             } />,
