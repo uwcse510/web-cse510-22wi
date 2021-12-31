@@ -21,6 +21,8 @@ import ContentVisionsOfHCI from '../content/calendar/VisionsOfHCI.mdx';
 type CalendarDateBase = {
     date: DateTime,
     dateTitle?: string,
+    virtual?: boolean,
+    awayJames?: boolean,
     guest?: {
         name: string,
         link: string,
@@ -48,12 +50,14 @@ export class CourseCalendarStore {
         //
         {
             date: DateTime.fromISO('2022-01-04'),
+            virtual: true,
 
             dateTitle: 'Introduction and Overview',
             contentNonstandard: <ContentNoReading />,
         },
         {
             date: DateTime.fromISO('2022-01-06'),
+            virtual: true,
 
             dateTitle: 'Human-Computer Interaction History',
             contentNonstandard: <ContentNoReading />,
@@ -363,6 +367,7 @@ export class CourseCalendarStore {
         },
         {
             date: DateTime.fromISO('2022-01-20'),
+            dateTitle: 'In-Class Finalization of Project Proposals',
 
             /*
             dateTitle: 'Project Proposal Presentations',
@@ -375,9 +380,11 @@ export class CourseCalendarStore {
         //
         {
             date: DateTime.fromISO('2022-01-25'),
+            dateTitle: 'Week 4 Day 1',
         },
         {
             date: DateTime.fromISO('2022-01-27'),
+            dateTitle: 'Week 4 Day 2',
         },
 
         //
@@ -385,9 +392,11 @@ export class CourseCalendarStore {
         //
         {
             date: DateTime.fromISO('2022-02-01'),
+            dateTitle: 'Week 5 Day 1',
         },
         {
             date: DateTime.fromISO('2022-02-03'),
+            dateTitle: 'Week 5 Day 2',
         },
 
         //
@@ -395,9 +404,11 @@ export class CourseCalendarStore {
         //
         {
             date: DateTime.fromISO('2022-02-08'),
+            dateTitle: 'Project Milestone 1 Presentations',
         },
         {
             date: DateTime.fromISO('2022-02-10'),
+            dateTitle: 'Project Milestone 1 Presentations',
 
             /*
             dateTitle: 'Project Milestone Presentations',
@@ -410,6 +421,7 @@ export class CourseCalendarStore {
         //
         {
             date: DateTime.fromISO('2022-02-15'),
+            dateTitle: 'Week 7 Day 1',
 
             /*
             dateTitle: 'Experimental Design and Analysis',
@@ -418,6 +430,7 @@ export class CourseCalendarStore {
         },
         {
             date: DateTime.fromISO('2022-02-17'),
+            dateTitle: 'Week 7 Day 2',
         },
 
         //
@@ -425,9 +438,13 @@ export class CourseCalendarStore {
         //
         {
             date: DateTime.fromISO('2022-02-22'),
+            dateTitle: 'Week 8 Day 1',
+            awayJames: true,
         },
         {
             date: DateTime.fromISO('2022-02-24'),
+            dateTitle: 'Week 8 Day 2',
+            awayJames: true,
         },
 
         //
@@ -435,9 +452,11 @@ export class CourseCalendarStore {
         //
         {
             date: DateTime.fromISO('2022-03-01'),
+            dateTitle: 'Project Milestone 2 Presentations',
         },
         {
             date: DateTime.fromISO('2022-03-03'),
+            dateTitle: 'Project Milestone 2 Presentations',
             /*
             dateTitle: 'Project Milestone Presentations',
             contentNonstandard: <ContentProjectMilestone />,
@@ -459,9 +478,11 @@ export class CourseCalendarStore {
         //
         {
             date: DateTime.fromISO('2022-03-08'),
+            dateTitle: 'Week 10 Day 1',
         },
         {
             date: DateTime.fromISO('2022-03-10'),
+            dateTitle: 'Week 10 Day 2',
         },
 
         //

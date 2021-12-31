@@ -34,11 +34,11 @@ function renderAdditionalResources(calendarDateCurrent: CalendarDate) {
     }
 }
 
-function renderGuest(calendarDateCurrent: CalendarDate) {
-    if (calendarDateCurrent.guest) {
+function renderAwayJames(calendarDateCurrent: CalendarDate) {
+    if (calendarDateCurrent.awayJames) {
         return (
-            <Alert severity='info'>
-                Guest: <GeneratedLink href={calendarDateCurrent.guest.link}>{calendarDateCurrent.guest.name}</GeneratedLink>
+            <Alert severity='info' sx={{marginBottom: 1}}>
+                James will be away, participating remotely if able.
             </Alert>
         );
     } else {
@@ -79,6 +79,30 @@ function renderContent(calendarDateCurrent: CalendarDate) {
     }
 }
 
+function renderGuest(calendarDateCurrent: CalendarDate) {
+    if (calendarDateCurrent.guest) {
+        return (
+            <Alert severity='info' sx={{marginBottom: 1}}>
+                Guest: <GeneratedLink href={calendarDateCurrent.guest.link}>{calendarDateCurrent.guest.name}</GeneratedLink>
+            </Alert>
+        );
+    } else {
+        return null;
+    }
+}
+
+function renderVirtual(calendarDateCurrent: CalendarDate) {
+    if (calendarDateCurrent.virtual) {
+        return (
+            <Alert severity='info' sx={{marginBottom: 1}}>
+                Class will be conducted in Zoom, using the Zoom link provided by email and in Canvas.
+            </Alert>
+        );
+    } else {
+        return null;
+    }
+}
+
 export const CourseCalendar: FunctionComponent = () => {
     const store = useAppStore();
 
@@ -91,6 +115,8 @@ export const CourseCalendar: FunctionComponent = () => {
                     </Grid>
                     <Grid item xs={10}>
                         <h2>{calendarDateCurrent.dateTitle}</h2>
+                        {renderVirtual(calendarDateCurrent)}
+                        {renderAwayJames(calendarDateCurrent)}
                         {renderGuest(calendarDateCurrent)}
                         {renderContent(calendarDateCurrent)}
                         {renderAdditionalResources(calendarDateCurrent)}
