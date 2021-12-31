@@ -153,16 +153,16 @@ export class CourseCalendarStore {
                         link: 'https://canvas.uw.edu/files/85803916/download?download_frd=1'
                     },
                     {
-                        authorText: 'Brett Victor',
-                        title: 'Magic Ink: Information Software and the Graphical Interface',
-                        publicationText: '2006',
-                        link: 'http://worrydream.com/MagicInk/'
-                    },
-                    {
                         authorText: 'Jonathan Lester, Tanzeem Choudhury, Gaetano Borriello',
                         title: 'A Practical Approach to Recognizing Physical Activities',
                         publicationText: 'Pervasive 2006',
                         link: 'https://canvas.uw.edu/files/85835094/download?download_frd=1'
+                    },
+                    {
+                        authorText: 'Brett Victor',
+                        title: 'Magic Ink: Information Software and the Graphical Interface',
+                        publicationText: '2006',
+                        link: 'http://worrydream.com/MagicInk/'
                     },
                 ]
             }/>,
@@ -303,7 +303,7 @@ export class CourseCalendarStore {
                         'Opinion': [
                             {
                                 authorText: 'Nithya Sambasivan, Shivani Kapania, Hannah Highfill, Diana Akrong, Praveen Kumar Paritosh, Lora M Aroyo',
-                                title: '“Everyone wants to do the model work, not the data work”: Data Cascades in High-Stakes AI',
+                                title: '"Everyone wants to do the model work, not the data work": Data Cascades in High-Stakes AI',
                                 publicationText: 'CHI 2021',
                                 link: 'https://dl.acm.org/doi/10.1145/3411764.3445518'
                             },
