@@ -54,6 +54,7 @@
         "@types/react-router-dom": "*",
         "typescript": "*",
         "webpack": "*",
+        "webpack-merge": "*",
         "webpack-dev-middleware": "*",
         "webpack-hot-middleware": "*"
     }
