@@ -1,11 +1,14 @@
-import { DateTime, DateTimeFormatOptions } from 'luxon';
+// import {
+//     DateTime,
+//     DateTimeFormatOptions
+// } from 'luxon';
 import { Reading } from '../types/Reading';
 
-const DATETIME_OPTIONS_ASSIGNMENT = {
-    month: 'long',
-    day: 'numeric',
-    weekday: 'long'
-} as DateTimeFormatOptions;
+// const DATETIME_OPTIONS_ASSIGNMENT = {
+//     month: 'long',
+//     day: 'numeric',
+//     weekday: 'long'
+// } as DateTimeFormatOptions;
 
 type link = string | null;
 type assignmentDate = string | null;
@@ -36,19 +39,24 @@ export class CourseInformationStore {
     // Project
     //
 
-    assignmentDateDueProjectProposal: assignmentDate =
-        'by 11:59pm ' + DateTime.fromISO('2020-04-15').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT) +
-        ' for in-class presentations ' + DateTime.fromISO('2020-04-16').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
-    assignmentDateDueProjectRelatedResearch: assignmentDate =
-        'by 11:59pm ' + DateTime.fromISO('2020-05-01').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
-    assignmentDateDueProjectMilestone1: assignmentDate =
-        'by 11:59pm ' + DateTime.fromISO('2020-05-06').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT) +
-        ' for in-class presentations ' + DateTime.fromISO('2020-05-07').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
-    assignmentDateDueProjectMilestone2: assignmentDate =
-        'by 11:59pm ' + DateTime.fromISO('2020-05-27').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT) +
-        ' for in-class presentations ' + DateTime.fromISO('2020-05-28').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
-    assignmentDateDueProjectReport: assignmentDate =
-        'by 11:59pm ' + DateTime.fromISO('2020-06-11').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
+    assignmentDateDueProjectProposal: assignmentDate = null;
+        // TODO
+        // 'by 11:59pm ' + DateTime.fromISO('2020-04-15').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT) +
+        // ' for in-class presentations ' + DateTime.fromISO('2020-04-16').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
+    assignmentDateDueProjectRelatedResearch: assignmentDate = null;
+        // TODO
+        // 'by 11:59pm ' + DateTime.fromISO('2020-05-01').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
+    assignmentDateDueProjectMilestone1: assignmentDate = null;
+        // TODO
+        // 'by 11:59pm ' + DateTime.fromISO('2020-05-06').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT) +
+        // ' for in-class presentations ' + DateTime.fromISO('2020-05-07').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
+    assignmentDateDueProjectMilestone2: assignmentDate = null;
+        // TODO
+        // 'by 11:59pm ' + DateTime.fromISO('2020-05-27').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT) +
+        // ' for in-class presentations ' + DateTime.fromISO('2020-05-28').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
+    assignmentDateDueProjectReport: assignmentDate = null;
+        // TODO
+        // 'by 11:59pm ' + DateTime.fromISO('2020-06-11').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
 
     // Link to a Canvas thread of potential project proposal ideas
     linkProjectProposalIdeas: link = null; // TODO 'https://canvas.uw.edu/courses/1371984/discussion_topics/5340935';
@@ -78,10 +86,12 @@ export class CourseInformationStore {
     // Statistics Lab
     //
 
-    assignmentDateAvailableStatisticsLab: assignmentDate =
-        'by 11:59pm ' + DateTime.fromISO('2020-05-12').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
-    assignmentDateDueStatisticsLab: assignmentDate =
-        'by 11:59pm ' + DateTime.fromISO('2020-05-31').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
+    assignmentDateAvailableStatisticsLab: assignmentDate = null;
+        // TODO
+        // 'by 11:59pm ' + DateTime.fromISO('2020-05-12').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
+    assignmentDateDueStatisticsLab: assignmentDate = null;
+        // TODO
+        // 'by 11:59pm ' + DateTime.fromISO('2020-05-31').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
 
     linkStatisticsLab: link = null; // TODO 'https://canvas.uw.edu/files/65010646/download?download_frd=1';
     linkSubmitStatisticsLab: link = null; // TODO 'https://canvas.uw.edu/courses/1371984/assignments/5390983';
@@ -90,10 +100,12 @@ export class CourseInformationStore {
     // Exam
     //
 
-    assignmentDateAvailableExam: assignmentDate =
-        'by 11:59pm ' + DateTime.fromISO('2020-06-05').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
-    assignmentDateDueExam: assignmentDate =
-        'by 11:59pm ' + DateTime.fromISO('2020-06-08').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
+    assignmentDateAvailableExam: assignmentDate = null;
+        // TODO
+        // 'by 11:59pm ' + DateTime.fromISO('2020-06-05').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
+    assignmentDateDueExam: assignmentDate = null;
+        // TODO
+        // 'by 11:59pm ' + DateTime.fromISO('2020-06-08').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
 
     linkSubmitExam: link = null; // TODO 'https://canvas.uw.edu/courses/1371984/assignments/5391063';
 }
