@@ -20,7 +20,7 @@ import ContentVisionsOfHCI from '../content/calendar/VisionsOfHCI.mdx';
 
 type CalendarDateBase = {
     date: DateTime,
-    dateTitle?: string,
+    dateTitle: string,
     virtual?: boolean,
     awayJames?: boolean,
     guest?: {
