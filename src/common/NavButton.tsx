@@ -75,10 +75,14 @@ export const NavButton: React.FunctionComponent<NavButtonProps> = observer((prop
     function isSelected(): boolean {
         // TODO consider using a Match object instead
         // https://dev.to/housinganywhere/matching-your-way-to-consistent-states-1oag
+
+        const currentPath = store.routerStore.location.pathname;
+        const matchPath = currentPath.slice(store.publicPath.length - 1)
+
         if (props.match === "startsWith") {
-            return (store.routerStore.location.pathname.startsWith(props.to));
+            return (matchPath.startsWith(props.to));
         } else if (props.match === "equals") {
-            return (store.routerStore.location.pathname === props.to);
+            return (matchPath === props.to);
         } else if (props.match === "never") {
             return false;
         } else {

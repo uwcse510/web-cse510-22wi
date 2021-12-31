@@ -10,6 +10,7 @@ import { RouterStore } from 'mobx-react-router';
 export interface AppStore {
     courseCalendar: CourseCalendarStore;
     courseInformation: CourseInformationStore;
+    publicPath: string;
     routerStore: RouterStore;
 }
 
@@ -19,14 +20,16 @@ export interface AppStore {
 class AppStoreImpl implements AppStore {
     public courseCalendar: CourseCalendarStore;
     public courseInformation: CourseInformationStore;
+    public publicPath: string;
     public routerStore: RouterStore;
 
-    constructor(browserHistory: BrowserHistory) {
+    constructor(browserHistory: BrowserHistory, publicPath: string) {
         // Initialize our state
         this.courseCalendar = new CourseCalendarStore();
         this.courseInformation = new CourseInformationStore();
 
         // Initialize our router state
+        this.publicPath = publicPath;
         this.routerStore = new RouterStore(browserHistory);
     }
 }
@@ -41,12 +44,12 @@ let INSTANCE: AppStore | null = null;
  *
  * Enforces a singleton constraint.
  */
-export function createAppStore(browserHistory: BrowserHistory): AppStore {
+export function createAppStore(browserHistory: BrowserHistory, publicPath: string): AppStore {
     if (INSTANCE) {
         throw new Error('AppStore is a singleton.');
     }
 
-    INSTANCE = new AppStoreImpl(browserHistory);
+    INSTANCE = new AppStoreImpl(browserHistory, publicPath);
 
     return getAppStore();
 }
