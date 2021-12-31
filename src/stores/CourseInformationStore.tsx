@@ -19,7 +19,7 @@ export class CourseInformationStore {
     //
 
     // Link to course GitHub
-    linkGitHub: link = 'https://github.com/uwcse510/web-cse510-wi22';
+    linkGitHub: link = 'https://github.com/uwcse510/web-cse510-22wi';
 
     // Link regarding accessible presentations
     linkAccessiblePresentations: link = 'https://interactions.acm.org/archive/view/july-august-2017/making-your-presentation-accessible'

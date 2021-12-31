@@ -158,6 +158,12 @@ export class CourseCalendarStore {
                         publicationText: '2006',
                         link: 'http://worrydream.com/MagicInk/'
                     },
+                    {
+                        authorText: 'Jonathan Lester, Tanzeem Choudhury, Gaetano Borriello',
+                        title: 'A Practical Approach to Recognizing Physical Activities',
+                        publicationText: 'Pervasive 2006',
+                        link: 'https://canvas.uw.edu/files/85835094/download?download_frd=1'
+                    },
                 ]
             }/>,
         },
@@ -222,10 +228,10 @@ export class CourseCalendarStore {
                                 link: 'https://dl.acm.org/doi/10.1145/3411764.3445299'
                             },
                             {
-                                authorText: 'Aoyu Wu, Liwenhan Xie, Bongshin Lee, Yun Wang, Weiwei Cui, Huamin Qu',
-                                title: 'Learning to Automate Chart Layout Configurations Using Crowdsourced Paired Comparison',
+                                authorText: 'Jiamin Dai, Karyn Moffatt',
+                                title: 'Surfacing the Voices of People with Dementia: Strategies for Effective Inclusion of Proxy Stakeholders in Qualitative Research',
                                 publicationText: 'CHI 2021',
-                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445179'
+                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445756'
                             },
                             {
                                 authorText: 'Audrey Desjardins, Heidi R. Biggs',
@@ -296,22 +302,22 @@ export class CourseCalendarStore {
                         ],
                         'Opinion': [
                             {
-                                authorText: 'Colin M. Gray, Cristiana Santos, Nataliia Bielova, Michael Toth, Damian Clifford',
-                                title: 'Dark Patterns and the Legal Requirements of Consent Banners: An Interaction Criticism Perspective',
+                                authorText: 'Nithya Sambasivan, Shivani Kapania, Hannah Highfill, Diana Akrong, Praveen Kumar Paritosh, Lora M Aroyo',
+                                title: '“Everyone wants to do the model work, not the data work”: Data Cascades in High-Stakes AI',
                                 publicationText: 'CHI 2021',
-                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445779'
+                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445518'
                             },
                             {
-                                authorText: 'Eric Corbett, Christopher Le Dantec',
-                                title: 'Designing Civic Technology with Trust',
+                                authorText: 'Sebastian Linxen, Christian Sturm, Florian Brühlmann, Vincent Cassau, Klaus Opwis, Katharina Reinecke',
+                                title: 'How WEIRD is CHI?',
                                 publicationText: 'CHI 2021',
-                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445341'
+                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445488'
                             },
                             {
-                                authorText: 'Jiamin Dai, Karyn Moffatt',
-                                title: 'Surfacing the Voices of People with Dementia: Strategies for Effective Inclusion of Proxy Stakeholders in Qualitative Research',
+                                authorText: 'Barrett Ens, Benjamin Bach, Maxime Cordeil, Ulrich Engelke, Marcos Serrano, Wesley Willett, Arnaud Prouzeau, Christoph Anthes, Wolfgang Büschel, Cody Dunne, Tim Dwyer, Jens Grubert, Jason H Haga, Nurit Kirshenbaum, Dylan Kobayashi, Tica Lin, Monsurat Olaosebikan, Fabian Pointecker, David Saffo, Nazmus Saquib, Dieter Schmalstieg, Danielle Albers Szafir, Matt Whitlock, Yalong Yang',
+                                title: 'Grand Challenges in Immersive Analytics',
                                 publicationText: 'CHI 2021',
-                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445756'
+                                link: 'https://dl.acm.org/doi/10.1145/3411764.3446866'
                             },
                         ],
                     }
@@ -344,23 +350,20 @@ export class CourseCalendarStore {
                     authorText: 'Saul Greenberg, Bill Buxton',
                     title: 'Usability Evaluation Considered Harmful (Some of the Time)',
                     publicationText: 'CHI 2008',
-                    // TODO Canvas Link
-                    // link: 'https://canvas.uw.edu/files/63195019/download?download_frd=1'
+                    link: 'https://canvas.uw.edu/files/85831973/download?download_frd=1'
                 },
                 instances: [
                     {
                         authorText: 'Dan R. Olsen, Jr',
                         title: 'Evaluating User Interface Systems Research',
                         publicationText: 'UIST 2007',
-                        // TODO Canvas Link
-                        // link: 'https://canvas.uw.edu/files/63195038/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/85831974/download?download_frd=1'
                     },
                     {
                         authorText: 'James Fogarty',
                         title: 'Code and Contribution in Interactive Systems Research',
                         publicationText: 'CHI 2017 Workshop on #HCI.Tools: Strategies and Best Practices for Designing, Evaluating, and Sharing Technical HCI Toolkits',
-                        // TODO Canvas Link
-                        // link: 'https://canvas.uw.edu/files/63195022/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/85831972/download?download_frd=1'
                     }
                 ]
             }
