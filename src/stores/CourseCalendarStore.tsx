@@ -340,23 +340,20 @@ export class CourseCalendarStore {
                     authorText: 'Saul Greenberg, Bill Buxton',
                     title: 'Usability Evaluation Considered Harmful (Some of the Time)',
                     publicationText: 'CHI 2008',
-                    // TODO Canvas Link
-                    // link: 'https://canvas.uw.edu/files/63195019/download?download_frd=1'
+                    link: 'https://canvas.uw.edu/files/85831973/download?download_frd=1'
                 },
                 instances: [
                     {
                         authorText: 'Dan R. Olsen, Jr',
                         title: 'Evaluating User Interface Systems Research',
                         publicationText: 'UIST 2007',
-                        // TODO Canvas Link
-                        // link: 'https://canvas.uw.edu/files/63195038/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/85831974/download?download_frd=1'
                     },
                     {
                         authorText: 'James Fogarty',
                         title: 'Code and Contribution in Interactive Systems Research',
                         publicationText: 'CHI 2017 Workshop on #HCI.Tools: Strategies and Best Practices for Designing, Evaluating, and Sharing Technical HCI Toolkits',
-                        // TODO Canvas Link
-                        // link: 'https://canvas.uw.edu/files/63195022/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/85831972/download?download_frd=1'
                     }
                 ]
             }
