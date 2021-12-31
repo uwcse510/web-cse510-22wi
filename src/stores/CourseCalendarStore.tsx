@@ -218,10 +218,10 @@ export class CourseCalendarStore {
                                 link: 'https://dl.acm.org/doi/10.1145/3411764.3445299'
                             },
                             {
-                                authorText: 'Aoyu Wu, Liwenhan Xie, Bongshin Lee, Yun Wang, Weiwei Cui, Huamin Qu',
-                                title: 'Learning to Automate Chart Layout Configurations Using Crowdsourced Paired Comparison',
+                                authorText: 'Jiamin Dai, Karyn Moffatt',
+                                title: 'Surfacing the Voices of People with Dementia: Strategies for Effective Inclusion of Proxy Stakeholders in Qualitative Research',
                                 publicationText: 'CHI 2021',
-                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445179'
+                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445756'
                             },
                             {
                                 authorText: 'Audrey Desjardins, Heidi R. Biggs',
