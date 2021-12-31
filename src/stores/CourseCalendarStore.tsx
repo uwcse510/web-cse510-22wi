@@ -292,22 +292,22 @@ export class CourseCalendarStore {
                         ],
                         'Opinion': [
                             {
-                                authorText: 'Colin M. Gray, Cristiana Santos, Nataliia Bielova, Michael Toth, Damian Clifford',
-                                title: 'Dark Patterns and the Legal Requirements of Consent Banners: An Interaction Criticism Perspective',
+                                authorText: 'Nithya Sambasivan, Shivani Kapania, Hannah Highfill, Diana Akrong, Praveen Kumar Paritosh, Lora M Aroyo',
+                                title: '“Everyone wants to do the model work, not the data work”: Data Cascades in High-Stakes AI',
                                 publicationText: 'CHI 2021',
-                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445779'
+                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445518'
                             },
                             {
-                                authorText: 'Eric Corbett, Christopher Le Dantec',
-                                title: 'Designing Civic Technology with Trust',
+                                authorText: 'Sebastian Linxen, Christian Sturm, Florian Brühlmann, Vincent Cassau, Klaus Opwis, Katharina Reinecke',
+                                title: 'How WEIRD is CHI?',
                                 publicationText: 'CHI 2021',
-                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445341'
+                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445488'
                             },
                             {
-                                authorText: 'Jiamin Dai, Karyn Moffatt',
-                                title: 'Surfacing the Voices of People with Dementia: Strategies for Effective Inclusion of Proxy Stakeholders in Qualitative Research',
+                                authorText: 'Barrett Ens, Benjamin Bach, Maxime Cordeil, Ulrich Engelke, Marcos Serrano, Wesley Willett, Arnaud Prouzeau, Christoph Anthes, Wolfgang Büschel, Cody Dunne, Tim Dwyer, Jens Grubert, Jason H Haga, Nurit Kirshenbaum, Dylan Kobayashi, Tica Lin, Monsurat Olaosebikan, Fabian Pointecker, David Saffo, Nazmus Saquib, Dieter Schmalstieg, Danielle Albers Szafir, Matt Whitlock, Yalong Yang',
+                                title: 'Grand Challenges in Immersive Analytics',
                                 publicationText: 'CHI 2021',
-                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445756'
+                                link: 'https://dl.acm.org/doi/10.1145/3411764.3446866'
                             },
                         ],
                     }
