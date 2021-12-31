@@ -154,6 +154,12 @@ export class CourseCalendarStore {
                         publicationText: '2006',
                         link: 'http://worrydream.com/MagicInk/'
                     },
+                    {
+                        authorText: 'Jonathan Lester, Tanzeem Choudhury, Gaetano Borriello',
+                        title: 'A Practical Approach to Recognizing Physical Activities',
+                        publicationText: 'Pervasive 2006',
+                        link: 'https://canvas.uw.edu/files/85835094/download?download_frd=1'
+                    },
                 ]
             }/>,
         },
