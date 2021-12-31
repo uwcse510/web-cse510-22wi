@@ -18,6 +18,9 @@ export class CourseInformationStore {
     // Home
     //
 
+    // Link to course Canvas
+    linkCanvas: link = 'https://canvas.uw.edu/courses/1519807';
+
     // Link to course GitHub
     linkGitHub: link = 'https://github.com/uwcse510/web-cse510-22wi';
 

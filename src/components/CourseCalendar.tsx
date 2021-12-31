@@ -95,7 +95,7 @@ function renderVirtual(calendarDateCurrent: CalendarDate) {
     if (calendarDateCurrent.virtual) {
         return (
             <Alert severity='info' sx={{marginBottom: 1}}>
-                Class will be conducted in Zoom, using the Zoom link provided by email and in Canvas.
+                Class will be conducted via Zoom, using meeting information provided by email and in Canvas.
             </Alert>
         );
     } else {
