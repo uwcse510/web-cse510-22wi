@@ -39,7 +39,7 @@ export const CourseInformationAssignmentDate: FunctionComponent<CourseInformatio
     if (assignmentDateText) {
         return <span>{assignmentDateText}</span>;
     } else {
-        return <span>Assignment date to be added</span>
+        return <Box component="span" sx={{color: "red"}}>Assignment date to be added</Box>;
     }
 }
 
