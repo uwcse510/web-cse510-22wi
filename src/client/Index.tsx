@@ -22,7 +22,7 @@ declare let module: any;
 
 
 const browserHistory = createBrowserHistory({window});
-const appStore = createAppStore(browserHistory);
+const appStore = createAppStore(browserHistory, __PUBLICPATH__);
 
 const createUi = () => {
     return (
@@ -30,7 +30,7 @@ const createUi = () => {
             <ThemeProvider theme={AppTheme}>
                 <CssBaseline/>
                 <MDXProvider components={MDXComponents}>
-                    <MobxRouter basename={__PUBLICPATH__} routerStore={appStore.routerStore}>
+                    <MobxRouter basename={appStore.publicPath} routerStore={appStore.routerStore}>
                         <App/>
                     </MobxRouter>
                 </MDXProvider>

@@ -19,7 +19,7 @@ import Assignments from "src/pages/Assignments.mdx";
 import Calendar from "src/pages/Calendar.mdx";
 import Home from "src/pages/Home.mdx";
 
-import AssignmentsOverview from "../content/assignments/Overview.mdx"
+import AssignmentsOverviewWrapper from "../content/assignments/OverviewWrapper.mdx"
 import AssignmentsReadings from "../content/assignments/Readings.mdx"
 import AssignmentsProject from "../content/assignments/Project.mdx"
 import AssignmentsStatisticsLab from "../content/assignments/StatisticsLab.mdx"
@@ -46,7 +46,7 @@ export const App: React.FunctionComponent = () => {
                     <Routes>
                         <Route path="/" element={<Home/>} />
                         <Route path="/assignments" element={<Assignments/>}>
-                            <Route path="" element={<AssignmentsOverview/>} />
+                            <Route path="" element={<AssignmentsOverviewWrapper/>} />
                             <Route path="readings" element={<AssignmentsReadings/>} />
                             <Route path="project" element={<AssignmentsProject/>} />
                             <Route path="statisticslab" element={<AssignmentsStatisticsLab/>} />

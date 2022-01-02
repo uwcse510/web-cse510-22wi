@@ -6,21 +6,20 @@ import { DateTime } from 'luxon';
 
 import { Reading } from '../types/Reading';
 
-// import ContentAvailableExam from '../content/calendar/AvailableExam.mdx';
-// import ContentCHI2020 from '../content/calendar/CHI2020.mdx';
+import ContentAvailableExam from '../content/calendar/AvailableExam.mdx';
 import ContentContributionsInHCI from '../content/calendar/ContributionsInHCI.mdx';
-// import ContentDueExam from '../content/calendar/DueExam.mdx';
-// import ContentDueProjectFinalReport from '../content/calendar/DueProjectFinalReport.mdx';
+import ContentDueExam from '../content/calendar/DueExam.mdx';
+import ContentDueProjectFinalReport from '../content/calendar/DueProjectFinalReport.mdx';
 // import ContentDueStatisticsLab from '../content/calendar/DueStatisticsLab.mdx';
 // import ContentExperimentalDesignAndAnalysis from '../content/calendar/ExperimentalDesignAndAnalysis.mdx';
 import ContentNoReading from '../content/calendar/NoReading.mdx';
-// import ContentProjectMilestone from '../content/calendar/ProjectMilestone.mdx';
-// import ContentProjectProposal from '../content/calendar/ProjectProposal.mdx';
+import ContentProjectMilestone from '../content/calendar/ProjectMilestone.mdx';
+import ContentProjectProposal from '../content/calendar/ProjectProposal.mdx';
 import ContentVisionsOfHCI from '../content/calendar/VisionsOfHCI.mdx';
 
 type CalendarDateBase = {
     date: DateTime,
-    dateTitle?: string,
+    dateTitle: string,
     virtual?: boolean,
     awayJames?: boolean,
     guest?: {
@@ -80,12 +79,15 @@ export class CourseCalendarStore {
             dateTitle: 'Visions of Human-Computer Interaction',
             contentNonstandard: <ContentVisionsOfHCI readings={
                 [
-                    {
-                        authorText: 'Vannevar Bush',
-                        title: 'As We May Think',
-                        publicationText: 'The Atlantic, 1945',
-                        link: 'https://theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/'
-                    },
+                    //
+                    // Excluding because this paper is reviewed in history discussion
+                    //
+                    // {
+                    //     authorText: 'Vannevar Bush',
+                    //     title: 'As We May Think',
+                    //     publicationText: 'The Atlantic, 1945',
+                    //     link: 'https://theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/'
+                    // },
                     {
                         authorText: 'Mark Weiser',
                         title: 'The Computer for the 21st Century',
@@ -153,16 +155,16 @@ export class CourseCalendarStore {
                         link: 'https://canvas.uw.edu/files/85803916/download?download_frd=1'
                     },
                     {
-                        authorText: 'Brett Victor',
-                        title: 'Magic Ink: Information Software and the Graphical Interface',
-                        publicationText: '2006',
-                        link: 'http://worrydream.com/MagicInk/'
-                    },
-                    {
                         authorText: 'Jonathan Lester, Tanzeem Choudhury, Gaetano Borriello',
                         title: 'A Practical Approach to Recognizing Physical Activities',
                         publicationText: 'Pervasive 2006',
                         link: 'https://canvas.uw.edu/files/85835094/download?download_frd=1'
+                    },
+                    {
+                        authorText: 'Brett Victor',
+                        title: 'Magic Ink: Information Software and the Graphical Interface',
+                        publicationText: '2006',
+                        link: 'http://worrydream.com/MagicInk/'
                     },
                 ]
             }/>,
@@ -303,7 +305,7 @@ export class CourseCalendarStore {
                         'Opinion': [
                             {
                                 authorText: 'Nithya Sambasivan, Shivani Kapania, Hannah Highfill, Diana Akrong, Praveen Kumar Paritosh, Lora M Aroyo',
-                                title: '“Everyone wants to do the model work, not the data work”: Data Cascades in High-Stakes AI',
+                                title: '"Everyone wants to do the model work, not the data work": Data Cascades in High-Stakes AI',
                                 publicationText: 'CHI 2021',
                                 link: 'https://dl.acm.org/doi/10.1145/3411764.3445518'
                             },
@@ -344,6 +346,7 @@ export class CourseCalendarStore {
         //
         {
             date: DateTime.fromISO('2022-01-18'),
+
             dateTitle: 'Usability Evaluation Considered Harmful',
             readingsStandard: {
                 framing: {
@@ -370,12 +373,15 @@ export class CourseCalendarStore {
         },
         {
             date: DateTime.fromISO('2022-01-20'),
-            dateTitle: 'In-Class Finalization of Project Proposals',
 
-            /*
-            dateTitle: 'Project Proposal Presentations',
+            dateTitle: 'In-Class Finalization of Project Proposals',
+            contentNonstandard: <ContentNoReading />,
+        },
+        {
+            date: DateTime.fromISO('2022-01-21'),
+
+            dateTitle: 'Project Proposal',
             contentNonstandard: <ContentProjectProposal />,
-            */
         },
 
         //
@@ -383,11 +389,13 @@ export class CourseCalendarStore {
         //
         {
             date: DateTime.fromISO('2022-01-25'),
-            dateTitle: 'Week 4 Day 1',
+
+            dateTitle: 'Research Topic TBD',
         },
         {
             date: DateTime.fromISO('2022-01-27'),
-            dateTitle: 'Week 4 Day 2',
+
+            dateTitle: 'Research Topic TBD',
         },
 
         //
@@ -395,11 +403,13 @@ export class CourseCalendarStore {
         //
         {
             date: DateTime.fromISO('2022-02-01'),
-            dateTitle: 'Week 5 Day 1',
+
+            dateTitle: 'Research Topic TBD',
         },
         {
             date: DateTime.fromISO('2022-02-03'),
-            dateTitle: 'Week 5 Day 2',
+
+            dateTitle: 'Research Topic TBD',
         },
 
         //
@@ -407,16 +417,14 @@ export class CourseCalendarStore {
         //
         {
             date: DateTime.fromISO('2022-02-08'),
+
             dateTitle: 'Project Milestone 1 Presentations',
+            contentNonstandard: <ContentProjectMilestone />,
         },
         {
             date: DateTime.fromISO('2022-02-10'),
-            dateTitle: 'Project Milestone 1 Presentations',
 
-            /*
-            dateTitle: 'Project Milestone Presentations',
-            contentNonstandard: <ContentProjectMilestone />,
-            */
+            dateTitle: 'Project Milestone 1 Presentations',
         },
 
         //
@@ -424,7 +432,8 @@ export class CourseCalendarStore {
         //
         {
             date: DateTime.fromISO('2022-02-15'),
-            dateTitle: 'Week 7 Day 1',
+
+            dateTitle: 'Research Topic TBD',
 
             /*
             dateTitle: 'Experimental Design and Analysis',
@@ -433,7 +442,8 @@ export class CourseCalendarStore {
         },
         {
             date: DateTime.fromISO('2022-02-17'),
-            dateTitle: 'Week 7 Day 2',
+
+            dateTitle: 'Research Topic TBD',
         },
 
         //
@@ -441,13 +451,15 @@ export class CourseCalendarStore {
         //
         {
             date: DateTime.fromISO('2022-02-22'),
-            dateTitle: 'Week 8 Day 1',
             awayJames: true,
+
+            dateTitle: 'Research Topic TBD',
         },
         {
             date: DateTime.fromISO('2022-02-24'),
-            dateTitle: 'Week 8 Day 2',
             awayJames: true,
+
+            dateTitle: 'Research Topic TBD',
         },
 
         //
@@ -455,15 +467,14 @@ export class CourseCalendarStore {
         //
         {
             date: DateTime.fromISO('2022-03-01'),
+
             dateTitle: 'Project Milestone 2 Presentations',
+            contentNonstandard: <ContentProjectMilestone />,
         },
         {
             date: DateTime.fromISO('2022-03-03'),
+
             dateTitle: 'Project Milestone 2 Presentations',
-            /*
-            dateTitle: 'Project Milestone Presentations',
-            contentNonstandard: <ContentProjectMilestone />,
-            */
         },
 
         //
@@ -481,36 +492,36 @@ export class CourseCalendarStore {
         //
         {
             date: DateTime.fromISO('2022-03-08'),
-            dateTitle: 'Week 10 Day 1',
+
+            dateTitle: 'Research Topic TBD',
         },
         {
             date: DateTime.fromISO('2022-03-10'),
-            dateTitle: 'Week 10 Day 2',
+
+            dateTitle: 'Research Topic TBD',
         },
 
         //
         // Finals Week
         //
-        /*
         {
-            date: DateTime.fromISO('2020-06-05'),
+            date: DateTime.fromISO('2022-03-11'),
 
             dateTitle: 'Exam Available',
             contentNonstandard: <ContentAvailableExam />
         },
         {
-            date: DateTime.fromISO('2020-06-08'),
+            date: DateTime.fromISO('2022-03-14'),
 
             dateTitle: 'Exam Due',
             contentNonstandard: <ContentDueExam />
         },
         {
-            date: DateTime.fromISO('2020-06-11'),
+            date: DateTime.fromISO('2022-03-17'),
 
             dateTitle: 'Project Final Report Due',
             contentNonstandard: <ContentDueProjectFinalReport />
         },
-        */
     ];
 }
 

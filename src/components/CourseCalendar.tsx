@@ -7,13 +7,14 @@ import {
     Grid,
 } from '@mui/material';
 
+import { anchorText } from "src/common/GeneratedAnchor";
 import { CourseInformationLink } from '../components/CourseInformation';
 import { FormattedReading } from '../components/FormattedReading';
 import { useAppStore } from '../stores/AppStoreProvider';
 import { CalendarDate } from '../stores/CourseCalendarStore';
 import GeneratedLink from "src/common/GeneratedLink";
 
-const DATETIME_FORMAT_CALENDAR = 'EEE MMM d';
+const DATE_FORMAT = 'EEE MMM d';
 
 function renderAdditionalResources(calendarDateCurrent: CalendarDate) {
     if (calendarDateCurrent.additionalResources) {
@@ -95,7 +96,7 @@ function renderVirtual(calendarDateCurrent: CalendarDate) {
     if (calendarDateCurrent.virtual) {
         return (
             <Alert severity='info' sx={{marginBottom: 1}}>
-                Class will be conducted in Zoom, using the Zoom link provided by email and in Canvas.
+                Class will be conducted via Zoom, using meeting information provided by email and in Canvas.
             </Alert>
         );
     } else {
@@ -111,10 +112,12 @@ export const CourseCalendar: FunctionComponent = () => {
             {store.courseCalendar.calendarDates.map(calendarDateCurrent => (
                 <Grid item container key={calendarDateCurrent.date.toISODate()}>
                     <Grid item xs={2}>
-                        <h2>{calendarDateCurrent.date.toFormat(DATETIME_FORMAT_CALENDAR)}</h2>
+                        <h2 id={anchorText(calendarDateCurrent.date.toFormat(DATE_FORMAT))}>
+                            {calendarDateCurrent.date.toFormat(DATE_FORMAT)}
+                        </h2>
                     </Grid>
                     <Grid item xs={10}>
-                        <h2>{calendarDateCurrent.dateTitle}</h2>
+                        <h2 id={anchorText(calendarDateCurrent.dateTitle)}>{calendarDateCurrent.dateTitle}</h2>
                         {renderVirtual(calendarDateCurrent)}
                         {renderAwayJames(calendarDateCurrent)}
                         {renderGuest(calendarDateCurrent)}

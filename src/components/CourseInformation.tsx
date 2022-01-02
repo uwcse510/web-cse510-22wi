@@ -27,10 +27,10 @@ export const CourseInformationAssignmentDate: FunctionComponent<CourseInformatio
     const store = useAppStore();
 
     // Check this because TypeScript doesn't ensure in MDX files
-    if (props.assignmentDateName in store.courseInformation === false) {
+    if (!(props.assignmentDateName in store.courseInformation)) {
         throw new Error('assignmentDateName must be in store.courseInformation.');
     }
-    if (props.assignmentDateName.startsWith('assignmentDate') === false) {
+    if (!(props.assignmentDateName.startsWith('assignmentDate'))) {
         throw new Error('assignmentDateName must start with "assignmentDate".');
     }
 
