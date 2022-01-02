@@ -1,14 +1,14 @@
-// import {
-//     DateTime,
-//     DateTimeFormatOptions
-// } from 'luxon';
+import {
+    DateTime,
+    DateTimeFormatOptions,
+} from 'luxon';
 import { Reading } from '../types/Reading';
 
-// const DATETIME_OPTIONS_ASSIGNMENT = {
-//     month: 'long',
-//     day: 'numeric',
-//     weekday: 'long'
-// } as DateTimeFormatOptions;
+const DATETIME_OPTIONS_ASSIGNMENT = {
+    month: 'long',
+    day: 'numeric',
+    weekday: 'long'
+} as DateTimeFormatOptions;
 
 type link = string | null;
 type assignmentDate = string | null;
@@ -42,37 +42,30 @@ export class CourseInformationStore {
     // Project
     //
 
-    assignmentDateDueProjectProposal: assignmentDate = null;
-        // TODO
-        // 'by 11:59pm ' + DateTime.fromISO('2020-04-15').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT) +
-        // ' for in-class presentations ' + DateTime.fromISO('2020-04-16').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
-    assignmentDateDueProjectRelatedResearch: assignmentDate = null;
-        // TODO
-        // 'by 11:59pm ' + DateTime.fromISO('2020-05-01').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
-    assignmentDateDueProjectMilestone1: assignmentDate = null;
-        // TODO
-        // 'by 11:59pm ' + DateTime.fromISO('2020-05-06').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT) +
-        // ' for in-class presentations ' + DateTime.fromISO('2020-05-07').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
-    assignmentDateDueProjectMilestone2: assignmentDate = null;
-        // TODO
-        // 'by 11:59pm ' + DateTime.fromISO('2020-05-27').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT) +
-        // ' for in-class presentations ' + DateTime.fromISO('2020-05-28').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
-    assignmentDateDueProjectReport: assignmentDate = null;
-        // TODO
-        // 'by 11:59pm ' + DateTime.fromISO('2020-06-11').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
+    assignmentDateProjectInClassProposalFinalization: assignmentDate =
+        DateTime.fromISO('2022-01-20').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
+    assignmentDateDueProjectProposal: assignmentDate =
+        '11:59pm ' + DateTime.fromISO('2022-01-21').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
+    assignmentDateDueProjectMilestone1: assignmentDate =
+        '11:59pm ' + DateTime.fromISO('2022-02-07').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT) +
+        ' for in-class presentations ' + DateTime.fromISO('2022-02-08').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT) +
+        ' and ' + DateTime.fromISO('2022-02-10').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
+    assignmentDateDueProjectMilestone2: assignmentDate =
+        '11:59pm ' + DateTime.fromISO('2022-02-28').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT) +
+        ' for in-class presentations ' + DateTime.fromISO('2022-03-01').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT) +
+        ' and ' + DateTime.fromISO('2022-03-03').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
+    assignmentDateDueProjectReport: assignmentDate =
+        '11:59pm ' + DateTime.fromISO('2022-03-17').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
 
     // Link to a Canvas thread of potential project proposal ideas
     linkProjectProposalIdeas: link = null; // TODO 'https://canvas.uw.edu/courses/1371984/discussion_topics/5340935';
     // Link to a Canvas folder of prior project proposals
     linkProjectProposalSamples: link = null; // TODO 'https://canvas.uw.edu/courses/1371984/files/folder/project%20samples';
-    // Link to a calendar signup for early feedback meetings
-    linkProjectProposalEarlyFeedback: link = null; // TODO 'https://calendar.google.com/calendar/selfsched?sstoken=UUw1Q2o3dVVUcXUyfGRlZmF1bHR8NWNhYzYxNjgxNDdhMGNhYWMzMGE4OTYyOWNhOWIyZDU';
     // Link to the current CHI format to use for report submission
-    linkProjectCHIFormat: link = null; // TODO 'https://chi2020.acm.org/authors/chi-proceedings-format/';
+    linkProjectCHIFormat: link = "https://chi2022.acm.org/for-authors/presenting/papers/chi-publication-formats/";
 
     // Links to submit project components
     linkSubmitProjectProposal: link = null; // TODO 'https://canvas.uw.edu/courses/1371984/assignments/5390906';
-    linkSubmitProjectRelatedResearch: link = null; // TODO 'https://canvas.uw.edu/courses/1371984/assignments/5464345';
     linkSubmitProjectMilestone1: link = null; // TODO 'https://canvas.uw.edu/courses/1371984/assignments/5390939';
     linkSubmitProjectMilestone2: link = null; // TODO 'https://canvas.uw.edu/courses/1371984/assignments/5390992';
     linkSubmitProjectReport: link = null; // TODO 'https://canvas.uw.edu/courses/1371984/assignments/5391093';
