@@ -79,15 +79,14 @@ export class CourseCalendarStore {
             dateTitle: 'Visions of Human-Computer Interaction',
             contentNonstandard: <ContentVisionsOfHCI readings={
                 [
-                    //
-                    // Excluding because this paper is reviewed in history discussion
-                    //
-                    // {
-                    //     authorText: 'Vannevar Bush',
-                    //     title: 'As We May Think',
-                    //     publicationText: 'The Atlantic, 1945',
-                    //     link: 'https://theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/'
-                    // },
+                    {
+                        // Because this paper is reviewed in history discussion,
+                        // text below clarifies it can be read but will not be presented
+                        authorText: 'Vannevar Bush',
+                        title: 'As We May Think',
+                        publicationText: 'The Atlantic, 1945',
+                        link: 'https://theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/'
+                    },
                     {
                         authorText: 'Mark Weiser',
                         title: 'The Computer for the 21st Century',

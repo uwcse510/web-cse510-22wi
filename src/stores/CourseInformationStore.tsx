@@ -36,7 +36,7 @@ export class CourseInformationStore {
 
     // Links for the Visions of HCI discussion
     linkVisionsOrganization: link = null; // TODO 'https://docs.google.com/document/d/1-QzEOq3zPusRUW6S31_QAeSpGD8rt13UUYJrVwDKY4Q/edit?usp=sharing';
-    linkSubmitVisions: link = null; // TODO 'https://canvas.uw.edu/courses/1371984/assignments/5389367';
+    linkVisionsSlides: link = null; // TODO Google Slides
 
     //
     // Project
