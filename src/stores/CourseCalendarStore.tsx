@@ -10,8 +10,8 @@ import ContentAvailableExam from '../content/calendar/AvailableExam.mdx';
 import ContentContributionsInHCI from '../content/calendar/ContributionsInHCI.mdx';
 import ContentDueExam from '../content/calendar/DueExam.mdx';
 import ContentDueProjectFinalReport from '../content/calendar/DueProjectFinalReport.mdx';
-// import ContentDueStatisticsLab from '../content/calendar/DueStatisticsLab.mdx';
-// import ContentExperimentalDesignAndAnalysis from '../content/calendar/ExperimentalDesignAndAnalysis.mdx';
+import ContentDueStatisticsLab from '../content/calendar/DueStatisticsLab.mdx';
+import ContentExperimentalDesignAndAnalysis from '../content/calendar/ExperimentalDesignAndAnalysis.mdx';
 import ContentNoReading from '../content/calendar/NoReading.mdx';
 import ContentProjectMilestone from '../content/calendar/ProjectMilestone.mdx';
 import ContentProjectProposal from '../content/calendar/ProjectProposal.mdx';
@@ -434,15 +434,16 @@ export class CourseCalendarStore {
 
             dateTitle: 'Research Topic TBD',
 
-            /*
-            dateTitle: 'Experimental Design and Analysis',
-            contentNonstandard: <ContentExperimentalDesignAndAnalysis />,
-            */
         },
         {
             date: DateTime.fromISO('2022-02-17'),
 
-            dateTitle: 'Research Topic TBD',
+            dateTitle: 'Experimental Design and Analysis',
+            guest: {
+                name: 'Eunice Jun',
+                link: 'https://homes.cs.washington.edu/~emjun/',
+            },
+            contentNonstandard: <ContentExperimentalDesignAndAnalysis />,
         },
 
         //
@@ -479,12 +480,12 @@ export class CourseCalendarStore {
         //
         // Statistics Lab
         //
-        // {
-        //     date: DateTime.fromISO('2020-05-31'),
-        //
-        //     dateTitle: 'Statistics Lab Due',
-        //     contentNonstandard: <ContentDueStatisticsLab />
-        // },
+        {
+            date: DateTime.fromISO('2022-03-04'),
+
+            dateTitle: 'Statistics Lab Due',
+            contentNonstandard: <ContentDueStatisticsLab />
+        },
 
         //
         // Week 10

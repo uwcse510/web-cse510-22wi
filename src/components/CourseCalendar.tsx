@@ -49,10 +49,6 @@ function renderAwayJames(calendarDateCurrent: CalendarDate) {
 
 function renderContent(calendarDateCurrent: CalendarDate) {
     if ('readingsStandard' in calendarDateCurrent) {
-        // A standard reading, with a framing and instances
-        // <!-- // <li *ngFor="let currentReading of currentDate.readingsStandard.additional"> -->
-        // <!-- // <app-reading [reading]="currentReading"></app-reading> -->
-        // <!-- <app-assignment-submission-link linkSubmission="{{ site.linkDiscussion }}"></app-assignment-submission-link> -->
         return (
             <Box>
                 <p>Read the framing paper:</p>
