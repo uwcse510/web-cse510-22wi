@@ -183,10 +183,10 @@ export class CourseCalendarStore {
                     contributions: {
                         'Empirical': [
                             {
-                                authorText: 'Mohit Jain, Nirmalendu Diwakar, Manohar Swaminathan',
-                                title: 'Smartphone Usage by Expert Blind Users',
+                                authorText: 'Eiji Hayashi, Jaime Lien, Nicholas Gillian, Leonardo Giusti, Dave Weber, Jin Yamanaka, Lauren Bedal, Ivan Poupyrev',
+                                title: 'RadarNet: Efficient Gesture Recognition Technique Utilizing a Miniature Radar Sensor',
                                 publicationText: 'CHI 2021',
-                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445074'
+                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445367'
                             },
                             {
                                 authorText: 'Maia J Boyd, Jamar L Sullivan, Marshini Chetty, Blase Ur',
@@ -195,10 +195,10 @@ export class CourseCalendarStore {
                                 link: 'https://dl.acm.org/doi/10.1145/3411764.3445061'
                             },
                             {
-                                authorText: 'Sachin R Pendse, Amit Sharma, Aditya Vashistha, Munmun de Choudhury, Neha Kumar',
-                                title: '"Can I Not Be Suicidal on a Sunday?": Understanding Technology-Mediated Pathways to Mental Health Support',
+                                authorText: 'Kaixing Zhao, Sandra Bardot, Marcos Serrano, Mathieu Simonnet, Bernard Oriolo, Christophe Jouffrais',
+                                title: 'Tactile Fixations: A Behavioral Marker on How People with Visual Impairments Explore Raised-line Graphics',
                                 publicationText: 'CHI 2021',
-                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445410'
+                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445578'
                             },
                         ],
                         'Artifact': [
@@ -269,11 +269,11 @@ export class CourseCalendarStore {
                                 link: 'https://dl.acm.org/doi/10.1145/3411764.3445586'
                             }, 
                             {
-                                authorText: 'Eiji Hayashi, Jaime Lien, Nicholas Gillian, Leonardo Giusti, Dave Weber, Jin Yamanaka, Lauren Bedal, Ivan Poupyrev',
-                                title: 'RadarNet: Efficient Gesture Recognition Technique Utilizing a Miniature Radar Sensor',
+                                authorText: 'Nimra Zaheer, Obaid Ullah Ahmad, Ammar Ahmed, Muhammad Shehryar Khan, Mudassir Shabbir',
+                                title: 'SEMOUR: A Scripted Emotional Speech Repository for Urdu',
                                 publicationText: 'CHI 2021',
-                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445367'
-                            },
+                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445171'
+                            }, 
                             {
                                 authorText: 'Vinoth Pandian Sermuga Pandian, Sarah Suleri, and Prof. Dr. Matthias Jarke',
                                 title: 'UISketch: A Large-Scale Dataset of UI Element Sketches',
