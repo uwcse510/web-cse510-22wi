@@ -82,12 +82,10 @@ export class CourseInformationStore {
     // Statistics Lab
     //
 
-    assignmentDateAvailableStatisticsLab: assignmentDate = null;
-        // TODO
-        // 'by 11:59pm ' + DateTime.fromISO('2020-05-12').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
-    assignmentDateDueStatisticsLab: assignmentDate = null;
-        // TODO
-        // 'by 11:59pm ' + DateTime.fromISO('2020-05-31').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
+    assignmentDateAvailableStatisticsLab: assignmentDate =
+        '11:59pm ' + DateTime.fromISO('2022-02-17').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
+    assignmentDateDueStatisticsLab: assignmentDate =
+        '11:59pm ' + DateTime.fromISO('2022-03-04').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
 
     linkStatisticsLab: link = null; // TODO 'https://canvas.uw.edu/files/65010646/download?download_frd=1';
     linkSubmitStatisticsLab: link = null; // TODO 'https://canvas.uw.edu/courses/1371984/assignments/5390983';
