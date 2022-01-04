@@ -160,7 +160,7 @@ export class CourseCalendarStore {
                         link: 'https://canvas.uw.edu/files/85835094/download?download_frd=1'
                     },
                     {
-                        authorText: 'Brett Victor',
+                        authorText: 'Bret Victor',
                         title: 'Magic Ink: Information Software and the Graphical Interface',
                         publicationText: '2006',
                         link: 'http://worrydream.com/MagicInk/'
