@@ -35,7 +35,7 @@ export class CourseInformationStore {
     linkDiscussion: link = null; // TODO 'https://canvas.uw.edu/courses/1371984/discussion_topics';
 
     // Links for the Visions of HCI discussion
-    linkVisionsOrganization: link = null; // TODO 'https://docs.google.com/document/d/1-QzEOq3zPusRUW6S31_QAeSpGD8rt13UUYJrVwDKY4Q/edit?usp=sharing';
+    linkVisionsOrganization: link = "https://docs.google.com/document/d/1p0jUK0ONrz8OuhXGqjHzEg-cte4vCDH4pxCIKSu9rek/edit?usp=sharing";
     linkVisionsSlides: link = null; // TODO Google Slides
 
     //

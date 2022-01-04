@@ -51,7 +51,7 @@ export class CourseCalendarStore {
             date: DateTime.fromISO('2022-01-04'),
             virtual: true,
 
-            dateTitle: 'Introduction and Overview',
+            dateTitle: 'Introductions and Overview',
             contentNonstandard: <ContentNoReading />,
         },
         {
@@ -493,7 +493,11 @@ export class CourseCalendarStore {
         {
             date: DateTime.fromISO('2022-03-08'),
 
-            dateTitle: 'Research Topic TBD',
+            dateTitle: 'Research Topic: Philip Guo',
+            guest: {
+                name: 'Philip Guo',
+                link: 'https://pg.ucsd.edu/',
+            },
         },
         {
             date: DateTime.fromISO('2022-03-10'),
