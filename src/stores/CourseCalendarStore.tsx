@@ -75,6 +75,7 @@ export class CourseCalendarStore {
         //
         {
             date: DateTime.fromISO('2022-01-11'),
+            virtual: true,
 
             dateTitle: 'Visions of Human-Computer Interaction',
             contentNonstandard: <ContentVisionsOfHCI readings={
@@ -170,6 +171,7 @@ export class CourseCalendarStore {
         },
         {
             date: DateTime.fromISO('2022-01-13'),
+            virtual: true,
 
             dateTitle: 'Contributions in Human-Computer Interaction',
             contentNonstandard: <ContentContributionsInHCI readings={
@@ -368,7 +370,7 @@ export class CourseCalendarStore {
                         link: 'https://canvas.uw.edu/files/85831972/download?download_frd=1'
                     }
                 ]
-            }
+            },
         },
         {
             date: DateTime.fromISO('2022-01-20'),
@@ -389,12 +391,62 @@ export class CourseCalendarStore {
         {
             date: DateTime.fromISO('2022-01-25'),
 
-            dateTitle: 'Research Topic TBD',
+            dateTitle: 'Research Topic: Design Tools',
+            readingsStandard: {
+                framing: {
+                    authorText: 'Mark W. Newman, James Lin, Jason I. Hong, James A. Landay',
+                    title: 'DENIM: An Informal Web Site Design Tool Inspired by Observations of Practice',
+                    publicationText: 'HCI, 2003',
+                    link: 'https://canvas.uw.edu/files/85832106/download?download_frd=1'
+                },
+                instances: [
+                    {
+                        authorText: 'Steven P. Dow, Alana Glassco, Jonathan Kass, Melissa Schwarz, Daniel L. Schwartz, Scott R. Klemmer',
+                        title: 'Parallel Prototyping Leads to Better Design Results, More Divergence, and Increased Self-Efficacy',
+                        publicationText: 'TOCHI, 2010',
+                        link: 'https://canvas.uw.edu/files/85832107/download?download_frd=1'
+                    },
+                    {
+                        authorText: 'Stefanie Mueller, Sangha Im, Serafima Gurevich, Alexander Teibrich, Lisa Pfisterer, François Guimbretière, Patrick Baudisch',
+                        title: 'WirePrint: 3D Printed Previews for Fast Prototyping',
+                        publicationText: 'UIST 2014',
+                        link: 'https://canvas.uw.edu/files/85832105/download?download_frd=1'
+                    }
+                ]
+            },
         },
         {
             date: DateTime.fromISO('2022-01-27'),
 
-            dateTitle: 'Research Topic TBD',
+            dateTitle: 'Research Topic: Accessibility',
+            guest: {
+                name: 'Meredith Ringel Morris',
+                link: 'https://cs.stanford.edu/~merrie/',
+            },
+            /*
+            readingsStandard: {
+                framing: {
+                    authorText: 'Jennifer Mankoff, Gillian R. Hayes, Devva Kasnitz',
+                    title: 'Disability Studies as a Source of Critical Inquiry for the Field of Assistive Technology',
+                    publicationText: 'ASSETS 2010',
+                    link: 'https://canvas.uw.edu/files/63388453/download?download_frd=1'
+                },
+                instances: [
+                    {
+                        authorText: 'Shaun Kane, Meredith Ringel Morris, Ann Paradiso, Jon Campbell',
+                        title: '"At times avuncular and cantankerous, with the reflexes of a mongoose": Understanding Self-Expression through Augmentative and Alternative Communication Devices',
+                        publicationText: 'CSCW 2017',
+                        link: 'https://canvas.uw.edu/files/63388437/download?download_frd=1'
+                    },
+                    {
+                        authorText: 'Kyle Rector, Keith Salmon, Daniel Thornton, Neel Joshi, Meredith Ringel Morris',
+                        title: 'Eyes-Free Art: Exploring Proxemic Audio Interfaces For Blind and Low Vision Art Engagement',
+                        publicationText: 'UbiComp 2017',
+                        link: 'https://canvas.uw.edu/files/63388470/download?download_frd=1'
+                    }
+                ]
+            }
+            */
         },
 
         //
@@ -403,12 +455,16 @@ export class CourseCalendarStore {
         {
             date: DateTime.fromISO('2022-02-01'),
 
-            dateTitle: 'Research Topic TBD',
+            dateTitle: 'Research Topic: Interface Toolkits',
         },
         {
             date: DateTime.fromISO('2022-02-03'),
 
-            dateTitle: 'Research Topic TBD',
+            dateTitle: 'Research Topic: CSCW and Social Computing',
+            guest: {
+                name: 'Benjamin Mako Hill',
+                link: 'https://mako.cc/',
+            },
         },
 
         //
@@ -432,7 +488,11 @@ export class CourseCalendarStore {
         {
             date: DateTime.fromISO('2022-02-15'),
 
-            dateTitle: 'Research Topic TBD',
+            dateTitle: 'Research Topic: TBD',
+            guest: {
+                name: 'Adam Fourney',
+                link: 'https://www.adamfourney.com/',
+            },
 
         },
         {
@@ -453,13 +513,45 @@ export class CourseCalendarStore {
             date: DateTime.fromISO('2022-02-22'),
             awayJames: true,
 
-            dateTitle: 'Research Topic TBD',
+            dateTitle: 'Research Topic: Designing with Children',
+            guest: {
+                name: 'Jason Yip',
+                link: 'http://bigyipper.com/',
+            },
+            /*
+            readingsStandard: {
+                framing: {
+                    authorText: 'Allison Druin',
+                    title: 'The Role of Children in the Design of New Technology',
+                    publicationText: 'Behaviour and Information Technology, 2002',
+                    link: 'https://canvas.uw.edu/files/63359372/download?download_frd=1'
+                },
+                instances: [
+                    {
+                        authorText: 'Jason C. Yip, Kiley Sobel, Caroline Pitt, Kung Jin Lee, Sijin Chen, Kari Nasu, Laura R. Pina',
+                        title: 'Examining Adult-Child Interactions in Intergenerational Participatory Design',
+                        publicationText: 'CHI 2017',
+                        link: 'https://canvas.uw.edu/files/63359373/download?download_frd=1'
+                    },
+                    {
+                        authorText: 'Julia Woodward, Zari McFadden, Nicole Shiver, Amir Ben-hayon, Jason C. Yip, Lisa Anthony',
+                        title: 'Using Co-Design to Examine How Children Conceptualize Intelligent Interfaces',
+                        publicationText: 'CHI 2018',
+                        link: 'https://canvas.uw.edu/files/63359371/download?download_frd=1'
+                    }
+                ]
+            }
+            */
         },
         {
             date: DateTime.fromISO('2022-02-24'),
             awayJames: true,
 
-            dateTitle: 'Research Topic TBD',
+            dateTitle: 'Research Topic: TBD',
+            guest: {
+                name: 'Eunice Jun',
+                link: 'https://homes.cs.washington.edu/~emjun/',
+            },
         },
 
         //
@@ -492,17 +584,47 @@ export class CourseCalendarStore {
         //
         {
             date: DateTime.fromISO('2022-03-08'),
+            virtual: true,
 
-            dateTitle: 'Research Topic: Philip Guo',
+            dateTitle: 'Research Topic: Building Scalable and Sustainable Research Software in Academia',
             guest: {
                 name: 'Philip Guo',
                 link: 'https://pg.ucsd.edu/',
             },
+            // Framing paper: https://dl.acm.org/doi/10.1145/3472749.3474819
         },
         {
             date: DateTime.fromISO('2022-03-10'),
 
-            dateTitle: 'Research Topic TBD',
+            dateTitle: 'Research Topic: Research through Design',
+            guest: {
+                name: 'Audrey Desjardins',
+                link: 'http://www.audreydesjardins.com/',
+            },
+            /*
+            readingsStandard: {
+                framing: {
+                    authorText: 'William Gaver',
+                    title: 'What Should We Expect from Research Through Design?',
+                    publicationText: 'CHI 2012',
+                    link: 'https://canvas.uw.edu/files/63386154/download?download_frd=1'
+                },
+                instances: [
+                    {
+                        authorText: 'William Odom, Ron Wakkary, Youn-kyung Lim, Audrey Desjardins, Bart Hengeveld, Richard Banks',
+                        title: 'From Research Prototype to Research Product',
+                        publicationText: 'CHI 2016',
+                        link: 'https://canvas.uw.edu/files/63386153/download?download_frd=1'
+                    },
+                    {
+                        authorText: 'Jayne Wallace, Jon Rogers, Michael Shorter, Pete Thomas, Martin Skelly, Richard Cook',
+                        title: 'The SelfReflector: Design, IoT and the High Street',
+                        publicationText: 'CHI 2018',
+                        link: 'https://canvas.uw.edu/files/63386156/download?download_frd=1'
+                    },
+                ]
+            }
+            */
         },
 
         //
@@ -528,36 +650,6 @@ export class CourseCalendarStore {
         },
     ];
 }
-
-/*
-dateTitle: 'Research Topic: Accessibility',
-guest: {
-    name: 'Meredith Ringle Morris',
-    link: 'https://www.microsoft.com/en-us/research/people/merrie/',
-},
-readingsStandard: {
-    framing: {
-        authorText: 'Jennifer Mankoff, Gillian R. Hayes, Devva Kasnitz',
-        title: 'Disability Studies as a Source of Critical Inquiry for the Field of Assistive Technology',
-        publicationText: 'ASSETS 2010',
-        link: 'https://canvas.uw.edu/files/63388453/download?download_frd=1'
-    },
-    instances: [
-        {
-            authorText: 'Shaun Kane, Meredith Ringel Morris, Ann Paradiso, Jon Campbell',
-            title: '"At times avuncular and cantankerous, with the reflexes of a mongoose": Understanding Self-Expression through Augmentative and Alternative Communication Devices',
-            publicationText: 'CSCW 2017',
-            link: 'https://canvas.uw.edu/files/63388437/download?download_frd=1'
-        },
-        {
-            authorText: 'Kyle Rector, Keith Salmon, Daniel Thornton, Neel Joshi, Meredith Ringel Morris',
-            title: 'Eyes-Free Art: Exploring Proxemic Audio Interfaces For Blind and Low Vision Art Engagement',
-            publicationText: 'UbiComp 2017',
-            link: 'https://canvas.uw.edu/files/63388470/download?download_frd=1'
-        }
-    ]
-}
-*/
 
 /*
 dateTitle: 'Research Topic: Interactive Machine Learning',
@@ -654,66 +746,6 @@ readingsStandard: {
 */
 
 /*
-dateTitle: 'Research Topic: Research through Design',
-guest: {
-    name: 'Audrey Desjardins',
-    link: 'http://www.audreydesjardins.com/',
-},
-readingsStandard: {
-    framing: {
-        authorText: 'William Gaver',
-        title: 'What Should We Expect from Research Through Design?',
-        publicationText: 'CHI 2012',
-        link: 'https://canvas.uw.edu/files/63386154/download?download_frd=1'
-    },
-    instances: [
-        {
-            authorText: 'William Odom, Ron Wakkary, Youn-kyung Lim, Audrey Desjardins, Bart Hengeveld, Richard Banks',
-            title: ' From Research Prototype to Research Product',
-            publicationText: 'CHI 2016',
-            link: 'https://canvas.uw.edu/files/63386153/download?download_frd=1'
-        },
-        {
-            authorText: 'Jayne Wallace, Jon Rogers, Michael Shorter, Pete Thomas, Martin Skelly, Richard Cook',
-            title: ' The SelfReflector: Design, IoT and the High Street',
-            publicationText: 'CHI 2018',
-            link: 'https://canvas.uw.edu/files/63386156/download?download_frd=1'
-        },
-    ]
-}
-*/
-
-/*
-dateTitle: 'Research Topic: Designing with Children',
-guest: {
-    name: 'Jason Yip',
-    link: 'http://bigyipper.com/',
-},
-readingsStandard: {
-    framing: {
-        authorText: 'Allison Druin',
-        title: 'The Role of Children in the Design of New Technology',
-        publicationText: 'Behaviour and Information Technology, 2002',
-        link: 'https://canvas.uw.edu/files/63359372/download?download_frd=1'
-    },
-    instances: [
-        {
-            authorText: 'Jason C. Yip, Kiley Sobel, Caroline Pitt, Kung Jin Lee, Sijin Chen, Kari Nasu, Laura R. Pina',
-            title: 'Examining Adult-Child Interactions in Intergenerational Participatory Design',
-            publicationText: 'CHI 2017',
-            link: 'https://canvas.uw.edu/files/63359373/download?download_frd=1'
-        },
-        {
-            authorText: 'Julia Woodward, Zari McFadden, Nicole Shiver, Amir Ben-hayon, Jason C. Yip, Lisa Anthony',
-            title: 'Using Co-Design to Examine How Children Conceptualize Intelligent Interfaces',
-            publicationText: 'CHI 2018',
-            link: 'https://canvas.uw.edu/files/63359371/download?download_frd=1'
-        }
-    ]
-}
-*/
-
-/*
 dateTitle: 'Research Topic: Interface Toolkits',
 readingsStandard: {
     framing: {
@@ -765,32 +797,6 @@ readingsStandard: {
             publicationText: 'IMWUT, 2019',
             link: 'https://canvas.uw.edu/files/63876805/download?download_frd=1'
         },
-    ]
-}
-*/
-
-/*
-dateTitle: 'Research Topic: Design Tools',
-readingsStandard: {
-    framing: {
-        authorText: 'Mark W. Newman, James Lin, Jason I. Hong, James A. Landay',
-        title: 'DENIM: An Informal Web Site Design Tool Inspired by Observations of Practice',
-        publicationText: 'HCI, 2003',
-        link: 'https://canvas.uw.edu/files/63552021/download?download_frd=1'
-    },
-    instances: [
-        {
-            authorText: 'Steven P. Dow, Alana Glassco, Jonathan Kass, Melissa Schwarz, Daniel L. Schwartz, Scott R. Klemmer',
-            title: 'Parallel Prototyping Leads to Better Design Results, More Divergence, and Increased Self-Efficacy',
-            publicationText: 'TOCHI, 2010',
-            link: 'https://canvas.uw.edu/files/63552018/download?download_frd=1'
-        },
-        {
-            authorText: 'Stefanie Mueller, Sangha Im, Serafima Gurevich, Alexander Teibrich, Lisa Pfisterer, François Guimbretière, Patrick Baudisch',
-            title: 'WirePrint: 3D Printed Previews for Fast Prototyping',
-            publicationText: 'UIST 2014',
-            link: 'https://canvas.uw.edu/files/63562229/download?download_frd=1'
-        }
     ]
 }
 */

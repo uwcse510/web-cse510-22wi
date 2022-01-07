@@ -36,7 +36,7 @@ export class CourseInformationStore {
 
     // Links for the Visions of HCI discussion
     linkVisionsOrganization: link = "https://docs.google.com/document/d/1p0jUK0ONrz8OuhXGqjHzEg-cte4vCDH4pxCIKSu9rek/edit?usp=sharing";
-    linkVisionsSlides: link = null; // TODO Google Slides
+    linkVisionsSlides: link = "https://docs.google.com/presentation/d/1q8U1QfW_n5XaKPjEyquUElOgNUD-RSyGVTWZgLT5YeE/edit?usp=sharing";
 
     //
     // Project
@@ -60,7 +60,7 @@ export class CourseInformationStore {
     // Link to a Canvas thread of potential project proposal ideas
     linkProjectProposalIdeas: link = null; // TODO 'https://canvas.uw.edu/courses/1371984/discussion_topics/5340935';
     // Link to a Canvas folder of prior project proposals
-    linkProjectProposalSamples: link = null; // TODO 'https://canvas.uw.edu/courses/1371984/files/folder/project%20samples';
+    linkProjectProposalSamples: link = "https://canvas.uw.edu/courses/1519807/files/folder/project%20samples";
     // Link to the current CHI format to use for report submission
     linkProjectCHIFormat: link = "https://chi2022.acm.org/for-authors/presenting/papers/chi-publication-formats/";
 
