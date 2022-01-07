@@ -486,7 +486,7 @@ export class CourseCalendarStore {
         //
         {
             date: DateTime.fromISO('2022-02-15'),
-            dateTitle: 'Research Topic: Mixed-Initiative Interaction',
+            dateTitle: 'Research Topic: TBD',
             guest: {
                 name: 'Adam Fourney',
                 link: 'https://www.adamfourney.com/',
@@ -505,6 +505,7 @@ export class CourseCalendarStore {
                         publicationText: 'CHI 2019',
                         link: 'https://canvas.uw.edu/files/86272544/download?download_frd=1'
                     } 
+                    // Wait for Adam's reply to add another instance paper.
                 ],   
             }
         },
