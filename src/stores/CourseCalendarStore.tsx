@@ -423,30 +423,28 @@ export class CourseCalendarStore {
                 name: 'Meredith Ringel Morris',
                 link: 'https://cs.stanford.edu/~merrie/',
             },
-            /*
             readingsStandard: {
                 framing: {
                     authorText: 'Jennifer Mankoff, Gillian R. Hayes, Devva Kasnitz',
                     title: 'Disability Studies as a Source of Critical Inquiry for the Field of Assistive Technology',
                     publicationText: 'ASSETS 2010',
-                    link: 'https://canvas.uw.edu/files/63388453/download?download_frd=1'
+                    link: 'https://canvas.uw.edu/files/86272943/download?download_frd=1'
                 },
                 instances: [
                     {
                         authorText: 'Shaun Kane, Meredith Ringel Morris, Ann Paradiso, Jon Campbell',
                         title: '"At times avuncular and cantankerous, with the reflexes of a mongoose": Understanding Self-Expression through Augmentative and Alternative Communication Devices',
                         publicationText: 'CSCW 2017',
-                        link: 'https://canvas.uw.edu/files/63388437/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/86272939/download?download_frd=1'
                     },
                     {
                         authorText: 'Kyle Rector, Keith Salmon, Daniel Thornton, Neel Joshi, Meredith Ringel Morris',
                         title: 'Eyes-Free Art: Exploring Proxemic Audio Interfaces For Blind and Low Vision Art Engagement',
                         publicationText: 'UbiComp 2017',
-                        link: 'https://canvas.uw.edu/files/63388470/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/86272945/download?download_frd=1'
                     }
                 ]
             }
-            */
         },
 
         //
@@ -481,19 +479,33 @@ export class CourseCalendarStore {
 
             dateTitle: 'Project Milestone 1 Presentations',
         },
-
         //
         // Week 7
         //
         {
             date: DateTime.fromISO('2022-02-15'),
-
             dateTitle: 'Research Topic: TBD',
             guest: {
                 name: 'Adam Fourney',
                 link: 'https://www.adamfourney.com/',
             },
-
+            readingsStandard: {
+                framing: {
+                    authorText: 'Eric Horvitz',
+                    title: 'Principles of Mixed-Initiative User Interfaces',
+                    publicationText: 'CHI 1999',
+                    link: 'https://canvas.uw.edu/files/86272398/download?download_frd=1'
+                },
+                instances: [
+                    {
+                        authorText: 'Saleema Amershi, Dan Weld, Mihaela Vorvoreanu, Adam Fourney, Besmira Nushi, Penny Collisson, Jina Suh, Shamsi Iqbal, Paul N. Bennett, Kori Inkpen, Jaime Teevan, Ruth Kikin-Gil, Eric Horvitz',
+                        title: 'Guidelines for Human-AI Interaction',
+                        publicationText: 'CHI 2019',
+                        link: 'https://canvas.uw.edu/files/86272544/download?download_frd=1'
+                    } 
+                    // Wait for Adam's reply to add another instance paper.
+                ],   
+            }
         },
         {
             date: DateTime.fromISO('2022-02-17'),
@@ -601,30 +613,44 @@ export class CourseCalendarStore {
                 name: 'Audrey Desjardins',
                 link: 'http://www.audreydesjardins.com/',
             },
-            /*
+            
             readingsStandard: {
                 framing: {
                     authorText: 'William Gaver',
                     title: 'What Should We Expect from Research Through Design?',
                     publicationText: 'CHI 2012',
-                    link: 'https://canvas.uw.edu/files/63386154/download?download_frd=1'
+                    link: 'https://canvas.uw.edu/files/86270922/download?download_frd=1'
                 },
                 instances: [
                     {
                         authorText: 'William Odom, Ron Wakkary, Youn-kyung Lim, Audrey Desjardins, Bart Hengeveld, Richard Banks',
                         title: 'From Research Prototype to Research Product',
                         publicationText: 'CHI 2016',
-                        link: 'https://canvas.uw.edu/files/63386153/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/86270966/download?download_frd=1'
                     },
                     {
-                        authorText: 'Jayne Wallace, Jon Rogers, Michael Shorter, Pete Thomas, Martin Skelly, Richard Cook',
-                        title: 'The SelfReflector: Design, IoT and the High Street',
-                        publicationText: 'CHI 2018',
-                        link: 'https://canvas.uw.edu/files/63386156/download?download_frd=1'
+                        authorText: 'Heidi R. Biggs, Audrey Desjardins',
+                        title: 'High Water Pants: Designing Embodied Environmental Speculation',
+                        publicationText: 'CHI 2020',
+                        link: 'https://canvas.uw.edu/files/86270892/download?download_frd=1'
                     },
-                ]
-            }
-            */
+                ],
+                
+            },
+            additionalResources: [
+                {
+                    authorText: 'Heidi R. Biggs, Audrey Desjardins',
+                    title: 'Crafting an Embodied Speculation: An Account of Prototyping Methods',
+                    publicationText: 'DIS 2020',
+                    link: 'https://canvas.uw.edu/files/86270913/download?download_frd=1'
+                },
+                {
+                    authorText: 'Heidi Biggs, Cayla Key, Audrey Desjardins, Afroditi Psarra',
+                    title: 'Moving Design Research: GIFs as Research Tools',
+                    publicationText: 'DIS 2021',
+                    link: 'https://canvas.uw.edu/files/86270921/download?download_frd=1'
+                },
+            ],
         },
 
         //
