@@ -481,19 +481,32 @@ export class CourseCalendarStore {
 
             dateTitle: 'Project Milestone 1 Presentations',
         },
-
         //
         // Week 7
         //
         {
             date: DateTime.fromISO('2022-02-15'),
-
-            dateTitle: 'Research Topic: TBD',
+            dateTitle: 'Research Topic: Mixed-Initiative Interaction',
             guest: {
                 name: 'Adam Fourney',
                 link: 'https://www.adamfourney.com/',
             },
-
+            readingsStandard: {
+                framing: {
+                    authorText: 'Eric Horvitz',
+                    title: 'Principles of Mixed-Initiative User Interfaces',
+                    publicationText: 'CHI 1999',
+                    link: 'https://canvas.uw.edu/files/86272398/download?download_frd=1'
+                },
+                instances: [
+                    {
+                        authorText: 'Saleema Amershi, Dan Weld, Mihaela Vorvoreanu, Adam Fourney, Besmira Nushi, Penny Collisson, Jina Suh, Shamsi Iqbal, Paul N. Bennett, Kori Inkpen, Jaime Teevan, Ruth Kikin-Gil, Eric Horvitz',
+                        title: 'Guidelines for Human-AI Interaction',
+                        publicationText: 'CHI 2019',
+                        link: 'https://canvas.uw.edu/files/86272544/download?download_frd=1'
+                    } 
+                ],   
+            }
         },
         {
             date: DateTime.fromISO('2022-02-17'),
