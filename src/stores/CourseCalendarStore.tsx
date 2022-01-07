@@ -601,30 +601,44 @@ export class CourseCalendarStore {
                 name: 'Audrey Desjardins',
                 link: 'http://www.audreydesjardins.com/',
             },
-            /*
+            
             readingsStandard: {
                 framing: {
                     authorText: 'William Gaver',
                     title: 'What Should We Expect from Research Through Design?',
                     publicationText: 'CHI 2012',
-                    link: 'https://canvas.uw.edu/files/63386154/download?download_frd=1'
+                    link: 'https://canvas.uw.edu/files/86270922/download?download_frd=1'
                 },
                 instances: [
                     {
                         authorText: 'William Odom, Ron Wakkary, Youn-kyung Lim, Audrey Desjardins, Bart Hengeveld, Richard Banks',
                         title: 'From Research Prototype to Research Product',
                         publicationText: 'CHI 2016',
-                        link: 'https://canvas.uw.edu/files/63386153/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/86270966/download?download_frd=1'
                     },
                     {
-                        authorText: 'Jayne Wallace, Jon Rogers, Michael Shorter, Pete Thomas, Martin Skelly, Richard Cook',
-                        title: 'The SelfReflector: Design, IoT and the High Street',
-                        publicationText: 'CHI 2018',
-                        link: 'https://canvas.uw.edu/files/63386156/download?download_frd=1'
+                        authorText: 'Heidi R. Biggs, Audrey Desjardins',
+                        title: 'High Water Pants: Designing Embodied Environmental Speculation',
+                        publicationText: 'CHI 2020',
+                        link: 'https://canvas.uw.edu/files/86270892/download?download_frd=1'
                     },
-                ]
-            }
-            */
+                ],
+                
+            },
+            additionalResources: [
+                {
+                    authorText: 'Heidi R. Biggs, Audrey Desjardins',
+                    title: 'Crafting an Embodied Speculation: An Account of Prototyping Methods',
+                    publicationText: 'DIS 2020',
+                    link: 'https://canvas.uw.edu/files/86270913/download?download_frd=1'
+                },
+                {
+                    authorText: 'Heidi Biggs, Cayla Key, Audrey Desjardins, Afroditi Psarra',
+                    title: 'Moving Design Research: GIFs as Research Tools',
+                    publicationText: 'DIS 2021',
+                    link: 'https://canvas.uw.edu/files/86270921/download?download_frd=1'
+                },
+            ],
         },
 
         //
