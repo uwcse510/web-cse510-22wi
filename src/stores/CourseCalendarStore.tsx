@@ -530,7 +530,6 @@ export class CourseCalendarStore {
                 name: 'Jason Yip',
                 link: 'http://bigyipper.com/',
             },
-            /*
             readingsStandard: {
                 framing: {
                     authorText: 'Allison Druin',
@@ -540,20 +539,19 @@ export class CourseCalendarStore {
                 },
                 instances: [
                     {
-                        authorText: 'Jason C. Yip, Kiley Sobel, Caroline Pitt, Kung Jin Lee, Sijin Chen, Kari Nasu, Laura R. Pina',
-                        title: 'Examining Adult-Child Interactions in Intergenerational Participatory Design',
-                        publicationText: 'CHI 2017',
-                        link: 'https://canvas.uw.edu/files/63359373/download?download_frd=1'
+                        authorText: 'Kung Jin Lee, Wendy Roldan, Tian Qi Zhu, Harkiran Kaur Saluja, Sungmin Na, Britnie Chin, Yilin Zeng, Jin Ha Lee, Jason Yip',
+                        title: 'The show must go on: A conceptual model of conducting synchronous participatory design with children online',
+                        publicationText: 'CHI 2021',
+                        link: 'https://canvas.uw.edu/files/86306650/download?download_frd=1'
                     },
                     {
-                        authorText: 'Julia Woodward, Zari McFadden, Nicole Shiver, Amir Ben-hayon, Jason C. Yip, Lisa Anthony',
-                        title: 'Using Co-Design to Examine How Children Conceptualize Intelligent Interfaces',
-                        publicationText: 'CHI 2018',
-                        link: 'https://canvas.uw.edu/files/63359371/download?download_frd=1'
+                        authorText: 'Julia Woodward, Feben Alemu, Natalia E. López Adames, Lisa Anthony, Jason C. Yip, Jaime Ruiz',
+                        title: '“It Would Be Cool to Get Stampeded by Dinosaurs”: Analyzing Children’s Conceptual Model of AR Headsets Through Co-Design',
+                        publicationText: 'CHI 2022',
+                        link: 'https://canvas.uw.edu/files/86306656/download?download_frd=1'
                     }
                 ]
             }
-            */
         },
         {
             date: DateTime.fromISO('2022-02-24'),
