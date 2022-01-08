@@ -540,7 +540,7 @@ export class CourseCalendarStore {
                 instances: [
                     {
                         authorText: 'Kung Jin Lee, Wendy Roldan, Tian Qi Zhu, Harkiran Kaur Saluja, Sungmin Na, Britnie Chin, Yilin Zeng, Jin Ha Lee, Jason Yip',
-                        title: 'The show must go on: A conceptual model of conducting synchronous participatory design with children online',
+                        title: 'The Show Must Go On: A Conceptual Model of Conducting Synchronous Participatory Design With Children Online',
                         publicationText: 'CHI 2021',
                         link: 'https://canvas.uw.edu/files/86306650/download?download_frd=1'
                     },
