@@ -535,7 +535,7 @@ export class CourseCalendarStore {
                     authorText: 'Allison Druin',
                     title: 'The Role of Children in the Design of New Technology',
                     publicationText: 'Behaviour and Information Technology, 2002',
-                    link: 'https://canvas.uw.edu/files/63359372/download?download_frd=1'
+                    link: 'https://canvas.uw.edu/files/86306673/download?download_frd=1'
                 },
                 instances: [
                     {
