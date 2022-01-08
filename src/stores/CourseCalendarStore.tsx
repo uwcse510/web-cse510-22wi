@@ -417,6 +417,7 @@ export class CourseCalendarStore {
         },
         {
             date: DateTime.fromISO('2022-01-27'),
+            virtual: true,
 
             dateTitle: 'Research Topic: Accessibility',
             guest: {
