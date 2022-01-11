@@ -32,7 +32,7 @@ export class CourseInformationStore {
     //
 
     // Link to the Canvas discussion forum
-    linkDiscussion: link = null; // TODO 'https://canvas.uw.edu/courses/1371984/discussion_topics';
+    linkDiscussion: link = "https://canvas.uw.edu/courses/1519807/discussion_topics";
 
     // Links for the Visions of HCI discussion
     linkVisionsOrganization: link = "https://docs.google.com/document/d/1p0jUK0ONrz8OuhXGqjHzEg-cte4vCDH4pxCIKSu9rek/edit?usp=sharing";
@@ -58,7 +58,7 @@ export class CourseInformationStore {
         '11:59pm ' + DateTime.fromISO('2022-03-17').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
 
     // Link to a Canvas thread of potential project proposal ideas
-    linkProjectProposalIdeas: link = null; // TODO 'https://canvas.uw.edu/courses/1371984/discussion_topics/5340935';
+    linkProjectProposalIdeas: link = "https://canvas.uw.edu/courses/1519807/discussion_topics/6939656";
     // Link to a Canvas folder of prior project proposals
     linkProjectProposalSamples: link = "https://canvas.uw.edu/courses/1519807/files/folder/project%20samples";
     // Link to the current CHI format to use for report submission
