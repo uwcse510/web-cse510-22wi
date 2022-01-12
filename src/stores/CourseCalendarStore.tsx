@@ -463,20 +463,20 @@ export class CourseCalendarStore {
                     authorText: 'Brad Myers, Scott E. Hudson, Randy Pausch',
                     title: 'Past, Present, and Future of User Interface Software Tools',
                     publicationText: 'TOCHI 2000',
-                    // link: 'https://canvas.uw.edu/files/63551706/download?download_frd=1'
+                    link: 'https://canvas.uw.edu/files/85832110/download?download_frd=1'
                 },
                 instances: [
                     {
                         authorText: 'Michael Bostock, Vadim Ogievetsky, Jeffrey Heer',
                         title: 'D3: Data-Driven Documents',
                         publicationText: 'InfoVis 2011',
-                        // link: 'https://canvas.uw.edu/files/63551708/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/85832111/download?download_frd=1'
                     },
                     {
                         authorText: 'Morgan Dixon, James Fogarty',
                         title: 'Prefab: Implementing Advanced Behaviors Using Pixel-Based Reverse Engineering of Interface Structure',
                         publicationText: 'CHI 2010',
-                        // link: 'https://canvas.uw.edu/files/63551703/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/85832109/download?download_frd=1'
                     }
                 ]
             }
