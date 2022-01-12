@@ -628,6 +628,28 @@ export class CourseCalendarStore {
                 link: 'https://pg.ucsd.edu/',
             },
             // Framing paper: https://dl.acm.org/doi/10.1145/3472749.3474819
+            readingsStandard: {
+                framing: {
+                    authorText: 'Philip Guo',
+                    title: 'Ten Million Users and Ten Years Later: Python Tutor’s Design Guidelines for Building Scalable and Sustainable Research Software in Academia',
+                    publicationText: 'UIST 2021',
+                    link: 'https://canvas.uw.edu/files/86470756/download?download_frd=1'
+                },
+                instances: [
+                    {
+                        authorText: 'Philip Guo',
+                        title: 'Older Adults Learning Computer Programming: Motivations, Frustrations, and Design Opportunities',
+                        publicationText: 'CHI 2017',
+                        link: 'https://canvas.uw.edu/files/86470755/download?download_frd=1'
+                    },
+                    {
+                        authorText: 'Philip Guo',
+                        title: 'Codeopticon: Real-Time, One-To-Many Human Tutoring for Computer Programming',
+                        publicationText: 'CHI 2015',
+                        link: 'https://canvas.uw.edu/files/86470754/download?download_frd=1'
+                    },
+                ],
+            },
         },
         {
             date: DateTime.fromISO('2022-03-10'),
