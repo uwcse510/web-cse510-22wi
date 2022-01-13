@@ -1,11 +1,14 @@
-import * as React from 'react';
-import { FunctionComponent } from 'react';
-
 import {
     Alert,
     Box,
+    Collapse,
     Grid,
 } from '@mui/material';
+import {
+    ExpandCircleDownOutlined
+} from '@mui/icons-material'
+import * as React from 'react';
+import { FunctionComponent } from 'react';
 
 import { anchorText } from "src/common/GeneratedAnchor";
 import { CourseInformationLink } from '../components/CourseInformation';
@@ -100,28 +103,52 @@ function renderVirtual(calendarDateCurrent: CalendarDate) {
     }
 }
 
+function renderCalendarDateCurrent(calendarDateCurrent: CalendarDate) {
+    const [expanded, setExpanded] = React.useState<boolean>(
+        calendarDateCurrent.date.diffNow("days").days >= -1
+    );
+
+    const toggleExpanded = () => {
+        setExpanded(!expanded);
+    };
+
+    let rotation;
+    if (expanded) {
+        rotation = "rotate(180deg)";
+    } else {
+        rotation = "rotate(0deg)";
+    }
+
+    return (
+        <Grid item container key={calendarDateCurrent.date.toISODate()}>
+            <Grid item xs={2}>
+                <h2 id={anchorText(calendarDateCurrent.date.toFormat(DATE_FORMAT))}>
+                    {calendarDateCurrent.date.toFormat(DATE_FORMAT)}
+                </h2>
+            </Grid>
+            <Grid item xs={10}>
+                <Box sx={{ display: "flex", alignItems: "baseline", justifyContent: "space-between" }}>
+                    <h2 id={anchorText(calendarDateCurrent.dateTitle)}>{calendarDateCurrent.dateTitle}</h2>
+                    <ExpandCircleDownOutlined onClick={toggleExpanded} sx={{ transform: rotation }} />
+                </Box>
+                <Collapse in={expanded} mountOnEnter unmountOnExit>
+                    {renderVirtual(calendarDateCurrent)}
+                    {renderAwayJames(calendarDateCurrent)}
+                    {renderGuest(calendarDateCurrent)}
+                    {renderContent(calendarDateCurrent)}
+                    {renderAdditionalResources(calendarDateCurrent)}
+                </Collapse>
+            </Grid>
+        </Grid>
+    );
+}
+
 export const CourseCalendar: FunctionComponent = () => {
     const store = useAppStore();
 
     return (
         <Grid container>
-            {store.courseCalendar.calendarDates.map(calendarDateCurrent => (
-                <Grid item container key={calendarDateCurrent.date.toISODate()}>
-                    <Grid item xs={2}>
-                        <h2 id={anchorText(calendarDateCurrent.date.toFormat(DATE_FORMAT))}>
-                            {calendarDateCurrent.date.toFormat(DATE_FORMAT)}
-                        </h2>
-                    </Grid>
-                    <Grid item xs={10}>
-                        <h2 id={anchorText(calendarDateCurrent.dateTitle)}>{calendarDateCurrent.dateTitle}</h2>
-                        {renderVirtual(calendarDateCurrent)}
-                        {renderAwayJames(calendarDateCurrent)}
-                        {renderGuest(calendarDateCurrent)}
-                        {renderContent(calendarDateCurrent)}
-                        {renderAdditionalResources(calendarDateCurrent)}
-                    </Grid>
-                </Grid>
-            ))}
+            {store.courseCalendar.calendarDates.map(renderCalendarDateCurrent)}
         </Grid>
     );
 }
