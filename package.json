@@ -21,6 +21,7 @@
         "mobx": "6.x",
         "mobx-react-lite": "3.x",
         "mobx-react-router": "npm:@superwf/mobx-react-router@7.x",
+        "@mui/icons-material": "5.x",
         "@mui/material": "5.x",
         "path-to-regexp": "6.x",
         "react": "17.x",

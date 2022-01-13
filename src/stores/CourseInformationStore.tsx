@@ -64,6 +64,9 @@ export class CourseInformationStore {
     // Link to the current CHI format to use for report submission
     linkProjectCHIFormat: link = "https://chi2022.acm.org/for-authors/presenting/papers/chi-publication-formats/";
 
+    // Link to shared document for project proposals
+    linkProjectProposalGoogleDoc: link = "https://docs.google.com/document/d/1OB4rPy4x7OAfy1HT2tnXLqplIEsZQ2Odx_DZPlME0Tk/edit?usp=sharing";
+
     // Links to submit project components
     linkSubmitProjectProposal: link = null; // TODO 'https://canvas.uw.edu/courses/1371984/assignments/5390906';
     linkSubmitProjectMilestone1: link = null; // TODO 'https://canvas.uw.edu/courses/1371984/assignments/5390939';
