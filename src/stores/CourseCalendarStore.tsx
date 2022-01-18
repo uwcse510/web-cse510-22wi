@@ -65,7 +65,7 @@ export class CourseCalendarStore {
                     authorText: 'Jonathan Grudin',
                     title: 'A Moving Target - The Evolution of Human-Computer Interaction',
                     publicationText: 'Book Chapter',
-                    link: 'https://canvas.uw.edu/files/85805028/download?download_frd=1'
+                    link: 'https://canvas.uw.edu/files/85805028/'
                 }
             ]
         },
@@ -92,73 +92,73 @@ export class CourseCalendarStore {
                         authorText: 'Mark Weiser',
                         title: 'The Computer for the 21st Century',
                         publicationText: 'Scientific American, 1991',
-                        link: 'https://canvas.uw.edu/files/85803917/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/85803917/'
                     },
                     {
                         authorText: 'Roy Want, Andy Hopper, Veronica Falcão, Jonathan Gibbons',
                         title: 'The Active Badge Location System',
                         publicationText: 'TOIS 1992',
-                        link: 'https://canvas.uw.edu/files/85803915/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/85803915/'
                     },
                     {
                         authorText: 'James D. Hollan, Scott Stornetta',
                         title: 'Beyond Being There',
                         publicationText: 'CHI 1992',
-                        link: 'https://canvas.uw.edu/files/85803912/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/85803912/'
                     },
                     {
                         authorText: 'Pierre Wellner',
                         title: 'Interacting with Paper on the DigitalDesk',
                         publicationText: 'CACM 1993',
-                        link: 'https://canvas.uw.edu/files/85803918/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/85803918/'
                     },
                     {
                         authorText: 'Benjamin B. Bederson, James D. Hollan',
                         title: 'Pad++: A Zooming Graphical Interface for Exploring Alternate Interface Physics',
                         publicationText: 'UIST 1994',
-                        link: 'https://canvas.uw.edu/files/85803910/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/85803910/'
                     },
                     {
                         authorText: 'Hiroshi Ishii, Brygg Ullmer',
                         title: 'Tangible Bits: Towards Seamless Interfaces between People, Bits and Atoms',
                         publicationText: 'CHI 1997',
-                        link: 'https://canvas.uw.edu/files/85803914/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/85803914/'
                     },
                     {
                         authorText: 'Eric Horvitz',
                         title: 'Principles of Mixed-Initiative User Interfaces',
                         publicationText: 'CHI 1999',
-                        link: 'https://canvas.uw.edu/files/85803913/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/85803913/'
                     },
                     {
                         authorText: 'Ken Hinckley, Jeff Pierce, Mike Sinclair, Eric Horvitz',
                         title: 'Sensing Techniques for Mobile Interaction',
                         publicationText: 'UIST 2000',
-                        link: 'https://canvas.uw.edu/files/85803911/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/85803911/'
                     },
                     {
                         authorText: 'Claudio S. Pinhanez',
                         title: 'The Everywhere Displays Projector: A Device to Create Ubiquitous Graphical Interfaces',
                         publicationText: 'UbiComp 2001',
-                        link: 'https://canvas.uw.edu/files/85804223/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/85804223/'
                     },
                     {
                         authorText: 'Saul Greenberg, Chester Fitchett',
                         title: 'Phidgets: Easy Development of Physical Interfaces through Physical Widgets',
                         publicationText: 'UIST 2001',
-                        link: 'https://canvas.uw.edu/files/85810296/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/85810296/'
                     },
                     {
                         authorText: 'Roy Want, Trevor Pering, Gunner Danneels, Muthu Kumar, Murali Sundar, John Light',
                         title: 'The Personal Server: Changing the Way We Think about Ubiquitous Computing',
                         publicationText: 'UbiComp 2002',
-                        link: 'https://canvas.uw.edu/files/85803916/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/85803916/'
                     },
                     {
                         authorText: 'Jonathan Lester, Tanzeem Choudhury, Gaetano Borriello',
                         title: 'A Practical Approach to Recognizing Physical Activities',
                         publicationText: 'Pervasive 2006',
-                        link: 'https://canvas.uw.edu/files/85835094/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/85835094/'
                     },
                     {
                         authorText: 'Bret Victor',
@@ -180,7 +180,7 @@ export class CourseCalendarStore {
                         authorText: 'Jacob O. Wobbrock, Julie A. Kientz',
                         title: 'Research Contributions in Human-Computer Interaction',
                         publicationText: 'Interactions, 2016',
-                        link: 'https://canvas.uw.edu/files/85805207/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/85805207/'
                     },
                     contributions: {
                         'Empirical': [
@@ -331,13 +331,13 @@ export class CourseCalendarStore {
                     authorText: 'Herbert A. Simon',
                     title: 'The Science of Design: Creating the Artificial',
                     publicationText: 'Design Issues, 1988',
-                    link: 'https://canvas.uw.edu/files/85805201/download?download_frd=1'
+                    link: 'https://canvas.uw.edu/files/85805201/'
                 },
                 {
                     authorText: 'Donald E. Stokes',
                     title: 'Pasteur’s Quadrant: Basic Science and Technological Innovation',
                     publicationText: 'Book Chapter, 1997',
-                    link: 'https://canvas.uw.edu/files/85805202/download?download_frd=1'
+                    link: 'https://canvas.uw.edu/files/85805202/'
                 },
             ]
         },
@@ -355,20 +355,20 @@ export class CourseCalendarStore {
                     authorText: 'Saul Greenberg, Bill Buxton',
                     title: 'Usability Evaluation Considered Harmful (Some of the Time)',
                     publicationText: 'CHI 2008',
-                    link: 'https://canvas.uw.edu/files/85831973/download?download_frd=1'
+                    link: 'https://canvas.uw.edu/files/85831973/'
                 },
                 instances: [
                     {
                         authorText: 'Dan R. Olsen, Jr',
                         title: 'Evaluating User Interface Systems Research',
                         publicationText: 'UIST 2007',
-                        link: 'https://canvas.uw.edu/files/85831974/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/85831974/'
                     },
                     {
                         authorText: 'James Fogarty',
                         title: 'Code and Contribution in Interactive Systems Research',
                         publicationText: 'CHI 2017 Workshop on #HCI.Tools: Strategies and Best Practices for Designing, Evaluating, and Sharing Technical HCI Toolkits',
-                        link: 'https://canvas.uw.edu/files/85831972/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/85831972/'
                     }
                 ]
             },
@@ -400,20 +400,20 @@ export class CourseCalendarStore {
                     authorText: 'Mark W. Newman, James Lin, Jason I. Hong, James A. Landay',
                     title: 'DENIM: An Informal Web Site Design Tool Inspired by Observations of Practice',
                     publicationText: 'HCI, 2003',
-                    link: 'https://canvas.uw.edu/files/85832106/download?download_frd=1'
+                    link: 'https://canvas.uw.edu/files/85832106/'
                 },
                 instances: [
                     {
                         authorText: 'Steven P. Dow, Alana Glassco, Jonathan Kass, Melissa Schwarz, Daniel L. Schwartz, Scott R. Klemmer',
                         title: 'Parallel Prototyping Leads to Better Design Results, More Divergence, and Increased Self-Efficacy',
                         publicationText: 'TOCHI, 2010',
-                        link: 'https://canvas.uw.edu/files/85832107/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/85832107/'
                     },
                     {
                         authorText: 'Stefanie Mueller, Sangha Im, Serafima Gurevich, Alexander Teibrich, Lisa Pfisterer, François Guimbretière, Patrick Baudisch',
                         title: 'WirePrint: 3D Printed Previews for Fast Prototyping',
                         publicationText: 'UIST 2014',
-                        link: 'https://canvas.uw.edu/files/85832105/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/85832105/'
                     }
                 ]
             },
@@ -432,20 +432,20 @@ export class CourseCalendarStore {
                     authorText: 'Jennifer Mankoff, Gillian R. Hayes, Devva Kasnitz',
                     title: 'Disability Studies as a Source of Critical Inquiry for the Field of Assistive Technology',
                     publicationText: 'ASSETS 2010',
-                    link: 'https://canvas.uw.edu/files/86272943/download?download_frd=1'
+                    link: 'https://canvas.uw.edu/files/86272943/'
                 },
                 instances: [
                     {
                         authorText: 'Shaun Kane, Meredith Ringel Morris, Ann Paradiso, Jon Campbell',
                         title: '"At times avuncular and cantankerous, with the reflexes of a mongoose": Understanding Self-Expression through Augmentative and Alternative Communication Devices',
                         publicationText: 'CSCW 2017',
-                        link: 'https://canvas.uw.edu/files/86272939/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/86272939/'
                     },
                     {
                         authorText: 'Kyle Rector, Keith Salmon, Daniel Thornton, Neel Joshi, Meredith Ringel Morris',
                         title: 'Eyes-Free Art: Exploring Proxemic Audio Interfaces For Blind and Low Vision Art Engagement',
                         publicationText: 'UbiComp 2017',
-                        link: 'https://canvas.uw.edu/files/86272945/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/86272945/'
                     }
                 ]
             }
@@ -463,20 +463,20 @@ export class CourseCalendarStore {
                     authorText: 'Brad Myers, Scott E. Hudson, Randy Pausch',
                     title: 'Past, Present, and Future of User Interface Software Tools',
                     publicationText: 'TOCHI 2000',
-                    link: 'https://canvas.uw.edu/files/85832110/download?download_frd=1'
+                    link: 'https://canvas.uw.edu/files/85832110/'
                 },
                 instances: [
                     {
                         authorText: 'Michael Bostock, Vadim Ogievetsky, Jeffrey Heer',
                         title: 'D3: Data-Driven Documents',
                         publicationText: 'InfoVis 2011',
-                        link: 'https://canvas.uw.edu/files/85832111/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/85832111/'
                     },
                     {
                         authorText: 'Morgan Dixon, James Fogarty',
                         title: 'Prefab: Implementing Advanced Behaviors Using Pixel-Based Reverse Engineering of Interface Structure',
                         publicationText: 'CHI 2010',
-                        link: 'https://canvas.uw.edu/files/85832109/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/85832109/'
                     }
                 ]
             }
@@ -520,14 +520,14 @@ export class CourseCalendarStore {
                     authorText: 'Eric Horvitz',
                     title: 'Principles of Mixed-Initiative User Interfaces',
                     publicationText: 'CHI 1999',
-                    link: 'https://canvas.uw.edu/files/86272398/download?download_frd=1'
+                    link: 'https://canvas.uw.edu/files/86272398/'
                 },
                 instances: [
                     {
                         authorText: 'Saleema Amershi, Dan Weld, Mihaela Vorvoreanu, Adam Fourney, Besmira Nushi, Penny Collisson, Jina Suh, Shamsi Iqbal, Paul N. Bennett, Kori Inkpen, Jaime Teevan, Ruth Kikin-Gil, Eric Horvitz',
                         title: 'Guidelines for Human-AI Interaction',
                         publicationText: 'CHI 2019',
-                        link: 'https://canvas.uw.edu/files/86272544/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/86272544/'
                     } 
                     // Wait for Adam's reply to add another instance paper.
                 ],   
@@ -561,20 +561,20 @@ export class CourseCalendarStore {
                     authorText: 'Allison Druin',
                     title: 'The Role of Children in the Design of New Technology',
                     publicationText: 'Behaviour and Information Technology, 2002',
-                    link: 'https://canvas.uw.edu/files/86306673/download?download_frd=1'
+                    link: 'https://canvas.uw.edu/files/86306673/'
                 },
                 instances: [
                     {
                         authorText: 'Kung Jin Lee, Wendy Roldan, Tian Qi Zhu, Harkiran Kaur Saluja, Sungmin Na, Britnie Chin, Yilin Zeng, Jin Ha Lee, Jason Yip',
                         title: 'The Show Must Go On: A Conceptual Model of Conducting Synchronous Participatory Design With Children Online',
                         publicationText: 'CHI 2021',
-                        link: 'https://canvas.uw.edu/files/86306650/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/86306650/'
                     },
                     {
                         authorText: 'Julia Woodward, Feben Alemu, Natalia E. López Adames, Lisa Anthony, Jason C. Yip, Jaime Ruiz',
                         title: '“It Would Be Cool to Get Stampeded by Dinosaurs”: Analyzing Children’s Conceptual Model of AR Headsets Through Co-Design',
                         publicationText: 'CHI 2022',
-                        link: 'https://canvas.uw.edu/files/86306656/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/86306656/'
                     }
                 ]
             }
@@ -633,20 +633,20 @@ export class CourseCalendarStore {
                     authorText: 'Philip Guo',
                     title: 'Ten Million Users and Ten Years Later: Python Tutor’s Design Guidelines for Building Scalable and Sustainable Research Software in Academia',
                     publicationText: 'UIST 2021',
-                    link: 'https://canvas.uw.edu/files/86470756/download?download_frd=1'
+                    link: 'https://canvas.uw.edu/files/86470756/'
                 },
                 instances: [
                     {
                         authorText: 'Philip Guo',
                         title: 'Older Adults Learning Computer Programming: Motivations, Frustrations, and Design Opportunities',
                         publicationText: 'CHI 2017',
-                        link: 'https://canvas.uw.edu/files/86470755/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/86470755/'
                     },
                     {
                         authorText: 'Philip Guo',
                         title: 'Codeopticon: Real-Time, One-To-Many Human Tutoring for Computer Programming',
                         publicationText: 'CHI 2015',
-                        link: 'https://canvas.uw.edu/files/86470754/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/86470754/'
                     },
                 ],
             },
@@ -665,20 +665,20 @@ export class CourseCalendarStore {
                     authorText: 'William Gaver',
                     title: 'What Should We Expect from Research Through Design?',
                     publicationText: 'CHI 2012',
-                    link: 'https://canvas.uw.edu/files/86270922/download?download_frd=1'
+                    link: 'https://canvas.uw.edu/files/86270922/'
                 },
                 instances: [
                     {
                         authorText: 'William Odom, Ron Wakkary, Youn-kyung Lim, Audrey Desjardins, Bart Hengeveld, Richard Banks',
                         title: 'From Research Prototype to Research Product',
                         publicationText: 'CHI 2016',
-                        link: 'https://canvas.uw.edu/files/86270966/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/86270966/'
                     },
                     {
                         authorText: 'Heidi R. Biggs, Audrey Desjardins',
                         title: 'High Water Pants: Designing Embodied Environmental Speculation',
                         publicationText: 'CHI 2020',
-                        link: 'https://canvas.uw.edu/files/86270892/download?download_frd=1'
+                        link: 'https://canvas.uw.edu/files/86270892/'
                     },
                 ],
                 
@@ -688,13 +688,13 @@ export class CourseCalendarStore {
                     authorText: 'Heidi R. Biggs, Audrey Desjardins',
                     title: 'Crafting an Embodied Speculation: An Account of Prototyping Methods',
                     publicationText: 'DIS 2020',
-                    link: 'https://canvas.uw.edu/files/86270913/download?download_frd=1'
+                    link: 'https://canvas.uw.edu/files/86270913/'
                 },
                 {
                     authorText: 'Heidi Biggs, Cayla Key, Audrey Desjardins, Afroditi Psarra',
                     title: 'Moving Design Research: GIFs as Research Tools',
                     publicationText: 'DIS 2021',
-                    link: 'https://canvas.uw.edu/files/86270921/download?download_frd=1'
+                    link: 'https://canvas.uw.edu/files/86270921/'
                 },
             ],
         },
@@ -730,20 +730,20 @@ readingsStandard: {
         authorText: 'Jerry Alan Fails, Dan R. Olsen',
         title: 'Interactive Machine Learning',
         publicationText: 'IUI 2003',
-        link: 'https://canvas.uw.edu/files/63551836/download?download_frd=1'
+        link: 'https://canvas.uw.edu/files/63551836/'
     },
     instances: [
         {
             authorText: 'Hao Lü, James Fogarty, Yang Li',
             title: 'Gesture Script: Recognizing Gestures and their Structure Using Rendering Scripts and Interactively Trained Parts',
             publicationText: 'CHI 2014',
-            link: 'https://canvas.uw.edu/files/63551840/download?download_frd=1'
+            link: 'https://canvas.uw.edu/files/63551840/'
         },
         {
             authorText: 'Saleema Amershi, Dan Weld, Mihaela Vorvoreanu, Adam Fourney, Besmira Nushi, Penny Collisson, Jina Suh, Shamsi Iqbal, Paul N. Bennett, Kori Inkpen, Jaime Teevan, Ruth Kikin-Gil, Eric Horvitz',
             title: 'Guidelines for Human-AI Interaction',
             publicationText: 'CHI 2019',
-            link: 'https://canvas.uw.edu/files/63551941/download?download_frd=1'
+            link: 'https://canvas.uw.edu/files/63551941/'
         }
     ]
 }
@@ -760,20 +760,20 @@ readingsStandard: {
         authorText: 'G. W. Furnas, T. K. Landauer, L. M. Gomez, S. T. Dumais',
         title: 'The Vocabulary Problem in Human-System Communication',
         publicationText: 'CACM, 1987',
-        link: 'https://canvas.uw.edu/files/64126876/download?download_frd=1'
+        link: 'https://canvas.uw.edu/files/64126876/'
     },
     instances: [
         {
             authorText: 'Adam Fourney, Richard Mann, Michael Terry',
             title: 'Query-Feature Graphs: Bridging User Vocabulary and System Functionality',
             publicationText: 'UIST 2011',
-            link: 'https://canvas.uw.edu/files/64126916/download?download_frd=1'
+            link: 'https://canvas.uw.edu/files/64126916/'
         },
         {
             authorText: 'Eytan Adar, Mira Dontcheva, Gierad Laput',
             title: 'CommandSpace: Modeling the Relationships Between Tasks, Descriptions and Features',
             publicationText: 'UIST 2014',
-            link: 'https://canvas.uw.edu/files/64126918/download?download_frd=1'
+            link: 'https://canvas.uw.edu/files/64126918/'
         }
     ]
 },
@@ -782,7 +782,7 @@ additionalResources: [
         authorText: 'Don Norman',
         title: 'The Next UI Breakthrough: Command Lines',
         publicationText: 'Interactions, 2007',
-        link: 'https://canvas.uw.edu/files/64126966/download?download_frd=1'
+        link: 'https://canvas.uw.edu/files/64126966/'
     }
 ]
 */
@@ -798,20 +798,20 @@ readingsStandard: {
         authorText: 'Mark S. Ackerman',
         title: 'The Intellectual Challenge of CSCW: The Gap Between Social Requirements and Technical Feasibility',
         publicationText: 'Human-Computer Interaction, 2009',
-        link: 'https://canvas.uw.edu/files/63385683/download?download_frd=1'
+        link: 'https://canvas.uw.edu/files/63385683/'
     },
     instances: [
         {
             authorText: 'Kaitlin Mahar, Amy X. Zhang, David Karger',
             title: 'Squadbox: A Tool to Combat Online Harassment Using Friendsourced Moderation',
             publicationText: 'CHI 2018',
-            link: 'https://canvas.uw.edu/files/63385812/download?download_frd=1'
+            link: 'https://canvas.uw.edu/files/63385812/'
         },
         {
             authorText: 'Maurice Jakesch, Megan French, Xiao Ma, Jeffrey T. Hancock, Mor Naaman',
             title: 'AI-Mediated Communication: How the Perception that Profile Text was Written by AI Affects Trustworthiness',
             publicationText: 'CHI 2019',
-            link: 'https://canvas.uw.edu/files/63385702/download?download_frd=1'
+            link: 'https://canvas.uw.edu/files/63385702/'
         },
     ]
 }
@@ -828,20 +828,20 @@ readingsStandard: {
         authorText: 'Mitchel Resnick, Brian Silverman',
         title: 'Some Reflections on Designing Construction Kits for Kids',
         publicationText: 'IDC 2005',
-        link: 'https://canvas.uw.edu/files/63876804/download?download_frd=1'
+        link: 'https://canvas.uw.edu/files/63876804/'
     },
     instances: [
         {
             authorText: 'Sayamindu Dasgupta, Benjamin Mako Hill',
             title: 'How “Wide Walls” Can Increase Engagement: Evidence From a Natural Experiment in Scratch',
             publicationText: 'CHI 2018',
-            link: 'https://canvas.uw.edu/files/63876803/download?download_frd=1'
+            link: 'https://canvas.uw.edu/files/63876803/'
         },
         {
             authorText: 'Anhong Guo, Ilter Canberk, Hannah Murphy, Andrés Monroy-Hernández, Rajan Vaish',
             title: 'Blocks: Collaborative and Persistent Augmented Reality Experiences',
             publicationText: 'IMWUT, 2019',
-            link: 'https://canvas.uw.edu/files/63876805/download?download_frd=1'
+            link: 'https://canvas.uw.edu/files/63876805/'
         },
     ]
 }
