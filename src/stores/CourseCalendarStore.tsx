@@ -381,7 +381,7 @@ export class CourseCalendarStore {
             contentNonstandard: <ContentNoReading />,
         },
         {
-            date: DateTime.fromISO('2022-01-21'),
+            date: DateTime.fromISO('2022-01-23'),
 
             dateTitle: 'Project Proposal',
             contentNonstandard: <ContentProjectProposal />,
