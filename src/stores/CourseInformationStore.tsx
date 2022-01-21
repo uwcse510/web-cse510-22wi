@@ -45,7 +45,7 @@ export class CourseInformationStore {
     assignmentDateProjectInClassProposalFinalization: assignmentDate =
         DateTime.fromISO('2022-01-20').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
     assignmentDateDueProjectProposal: assignmentDate =
-        '11:59pm ' + DateTime.fromISO('2022-01-21').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
+        '11:59pm ' + DateTime.fromISO('2022-01-23').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
     assignmentDateDueProjectMilestone1: assignmentDate =
         '11:59pm ' + DateTime.fromISO('2022-02-07').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT) +
         ' for in-class presentations ' + DateTime.fromISO('2022-02-08').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT) +
@@ -68,7 +68,7 @@ export class CourseInformationStore {
     linkProjectProposalGoogleDoc: link = "https://docs.google.com/document/d/1OB4rPy4x7OAfy1HT2tnXLqplIEsZQ2Odx_DZPlME0Tk/edit?usp=sharing";
 
     // Links to submit project components
-    linkSubmitProjectProposal: link = null; // TODO 'https://canvas.uw.edu/courses/1371984/assignments/5390906';
+    linkSubmitProjectProposal: link = "https://canvas.uw.edu/courses/1519807/assignments/7075561";
     linkSubmitProjectMilestone1: link = null; // TODO 'https://canvas.uw.edu/courses/1371984/assignments/5390939';
     linkSubmitProjectMilestone2: link = null; // TODO 'https://canvas.uw.edu/courses/1371984/assignments/5390992';
     linkSubmitProjectReport: link = null; // TODO 'https://canvas.uw.edu/courses/1371984/assignments/5391093';
