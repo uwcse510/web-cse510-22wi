@@ -510,7 +510,7 @@ export class CourseCalendarStore {
         //
         {
             date: DateTime.fromISO('2022-02-15'),
-            dateTitle: 'Research Topic: TBD',
+            dateTitle: 'Research Topic: Mixed-Initiative Interaction',
             guest: {
                 name: 'Adam Fourney',
                 link: 'https://www.adamfourney.com/',
@@ -528,8 +528,13 @@ export class CourseCalendarStore {
                         title: 'Guidelines for Human-AI Interaction',
                         publicationText: 'CHI 2019',
                         link: 'https://canvas.uw.edu/files/86272544/'
+                    },
+                    {
+                        authorText: 'Qian Yang, Aaron Steinfeld, Carolyn Penstein Rosé, John Zimmerman',
+                        title: 'Re-examining Whether, Why, and How Human-AI Interaction Is Uniquely Difficult to Design',
+                        publicationText: 'CHI 2020',
+                        link: 'https://canvas.uw.edu/files/87000322/'
                     } 
-                    // Wait for Adam's reply to add another instance paper.
                 ],   
             }
         },
