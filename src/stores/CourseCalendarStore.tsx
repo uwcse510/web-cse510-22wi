@@ -510,7 +510,7 @@ export class CourseCalendarStore {
         //
         {
             date: DateTime.fromISO('2022-02-15'),
-            dateTitle: 'Research Topic: Mixed-Initiative Interaction',
+            dateTitle: 'Research Topic: Interaction with AI',
             guest: {
                 name: 'Adam Fourney',
                 link: 'https://www.adamfourney.com/',
@@ -729,70 +729,6 @@ export class CourseCalendarStore {
 }
 
 /*
-dateTitle: 'Research Topic: Interactive Machine Learning',
-readingsStandard: {
-    framing: {
-        authorText: 'Jerry Alan Fails, Dan R. Olsen',
-        title: 'Interactive Machine Learning',
-        publicationText: 'IUI 2003',
-        link: 'https://canvas.uw.edu/files/63551836/'
-    },
-    instances: [
-        {
-            authorText: 'Hao Lü, James Fogarty, Yang Li',
-            title: 'Gesture Script: Recognizing Gestures and their Structure Using Rendering Scripts and Interactively Trained Parts',
-            publicationText: 'CHI 2014',
-            link: 'https://canvas.uw.edu/files/63551840/'
-        },
-        {
-            authorText: 'Saleema Amershi, Dan Weld, Mihaela Vorvoreanu, Adam Fourney, Besmira Nushi, Penny Collisson, Jina Suh, Shamsi Iqbal, Paul N. Bennett, Kori Inkpen, Jaime Teevan, Ruth Kikin-Gil, Eric Horvitz',
-            title: 'Guidelines for Human-AI Interaction',
-            publicationText: 'CHI 2019',
-            link: 'https://canvas.uw.edu/files/63551941/'
-        }
-    ]
-}
-*/
-
-/*
-dateTitle: 'Research Topic: Interaction and Search',
-guest: {
-    name: 'Adam Fourney',
-    link: 'https://www.adamfourney.com/',
-},
-readingsStandard: {
-    framing: {
-        authorText: 'G. W. Furnas, T. K. Landauer, L. M. Gomez, S. T. Dumais',
-        title: 'The Vocabulary Problem in Human-System Communication',
-        publicationText: 'CACM, 1987',
-        link: 'https://canvas.uw.edu/files/64126876/'
-    },
-    instances: [
-        {
-            authorText: 'Adam Fourney, Richard Mann, Michael Terry',
-            title: 'Query-Feature Graphs: Bridging User Vocabulary and System Functionality',
-            publicationText: 'UIST 2011',
-            link: 'https://canvas.uw.edu/files/64126916/'
-        },
-        {
-            authorText: 'Eytan Adar, Mira Dontcheva, Gierad Laput',
-            title: 'CommandSpace: Modeling the Relationships Between Tasks, Descriptions and Features',
-            publicationText: 'UIST 2014',
-            link: 'https://canvas.uw.edu/files/64126918/'
-        }
-    ]
-},
-additionalResources: [
-    {
-        authorText: 'Don Norman',
-        title: 'The Next UI Breakthrough: Command Lines',
-        publicationText: 'Interactions, 2007',
-        link: 'https://canvas.uw.edu/files/64126966/'
-    }
-]
-*/
-
-/*
 dateTitle: 'Research Topic: Social Computing and CSCW',
 guest: {
     name: 'Amy Zhang',
@@ -817,36 +753,6 @@ readingsStandard: {
             title: 'AI-Mediated Communication: How the Perception that Profile Text was Written by AI Affects Trustworthiness',
             publicationText: 'CHI 2019',
             link: 'https://canvas.uw.edu/files/63385702/'
-        },
-    ]
-}
-*/
-
-/*
-dateTitle: 'Research Topic: Construction Kits',
-guest: {
-    name: 'Andrés Monroy-Hernández',
-    link: 'http://www.andresmh.com/',
-},
-readingsStandard: {
-    framing: {
-        authorText: 'Mitchel Resnick, Brian Silverman',
-        title: 'Some Reflections on Designing Construction Kits for Kids',
-        publicationText: 'IDC 2005',
-        link: 'https://canvas.uw.edu/files/63876804/'
-    },
-    instances: [
-        {
-            authorText: 'Sayamindu Dasgupta, Benjamin Mako Hill',
-            title: 'How “Wide Walls” Can Increase Engagement: Evidence From a Natural Experiment in Scratch',
-            publicationText: 'CHI 2018',
-            link: 'https://canvas.uw.edu/files/63876803/'
-        },
-        {
-            authorText: 'Anhong Guo, Ilter Canberk, Hannah Murphy, Andrés Monroy-Hernández, Rajan Vaish',
-            title: 'Blocks: Collaborative and Persistent Augmented Reality Experiences',
-            publicationText: 'IMWUT, 2019',
-            link: 'https://canvas.uw.edu/files/63876805/'
         },
     ]
 }
