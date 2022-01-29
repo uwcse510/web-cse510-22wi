@@ -489,6 +489,37 @@ export class CourseCalendarStore {
                 name: 'Benjamin Mako Hill',
                 link: 'https://mako.cc/',
             },
+            readingsStandard: {
+                framing: {
+                    authorText: 'Mark S. Ackerman',
+                    title: 'The Intellectual Challenge of CSCW: The Gap Between Social Requirements and Technical Feasibility',
+                    publicationText: 'HCI 2000',
+                    link: 'https://canvas.uw.edu/files/87251526/'
+                },
+                instances: [
+                    {
+                        authorText: 'Aaron Halfaker, R. Stuart Geiger, Jonathan T. Morgan, John Riedl',
+                        title: 'The Rise and Decline of an Open Collaboration System: How Wikipedia’s Reaction to Popularity Is Causing Its Decline',
+                        publicationText: 'American Behavioral Scientist 2012',
+                        link: 'https://canvas.uw.edu/files/87251640/'
+                    },
+                    {
+                        authorText: 'Sneha Narayan, Jake Orlowitz, Jonathan T Morgan, Benjamin Mako Hill, Aaron Shaw',
+                        title: 'The Wikipedia Adventure: Field Evaluation of an Interactive Tutorial for New Users',
+                        publicationText: 'CSCW 2017',
+                        link: 'https://canvas.uw.edu/files/87251725/'
+                    }
+                ]
+            },
+            additionalResources: [
+                {
+                    authorText: 'P. J. Resnick, Neophytos Iacovou, Mitesh Suchak, Pete Bergstrom, John Riedl',
+                    title: 'GroupLens: an open architecture for collaborative filtering of netnews',
+                    publicationText: 'CSCW 1994',
+                    link: 'https://canvas.uw.edu/files/87251782/'
+                },
+                
+            ],
         },
 
         //
