@@ -514,7 +514,7 @@ export class CourseCalendarStore {
             additionalResources: [
                 {
                     authorText: 'P. J. Resnick, Neophytos Iacovou, Mitesh Suchak, Pete Bergstrom, John Riedl',
-                    title: 'GroupLens: an open architecture for collaborative filtering of netnews',
+                    title: 'GroupLens: An Open Architecture for Collaborative Filtering of Netnews',
                     publicationText: 'CSCW 1994',
                     link: 'https://canvas.uw.edu/files/87251782/'
                 },
