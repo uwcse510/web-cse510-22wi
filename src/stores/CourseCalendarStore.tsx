@@ -483,6 +483,7 @@ export class CourseCalendarStore {
         },
         {
             date: DateTime.fromISO('2022-02-03'),
+            virtual: true,
 
             dateTitle: 'Research Topic: CSCW and Social Computing',
             guest: {
