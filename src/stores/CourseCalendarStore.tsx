@@ -528,12 +528,14 @@ export class CourseCalendarStore {
         //
         {
             date: DateTime.fromISO('2022-02-08'),
+            virtual: true,
 
             dateTitle: 'Project Milestone 1 Presentations',
             contentNonstandard: <ContentProjectMilestone />,
         },
         {
             date: DateTime.fromISO('2022-02-10'),
+            virtual: true,
 
             dateTitle: 'Project Milestone 1 Presentations',
         },
