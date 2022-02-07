@@ -622,11 +622,33 @@ export class CourseCalendarStore {
             date: DateTime.fromISO('2022-02-24'),
             awayJames: true,
 
-            dateTitle: 'Research Topic: TBD',
+            dateTitle: 'Research Topic: Programming',
             guest: {
                 name: 'Eunice Jun',
                 link: 'https://homes.cs.washington.edu/~emjun/',
             },
+            readingsStandard: {
+                framing: {
+                    authorText: 'Sarah Chasins, Elena Glassman, Joshua Sunshine',
+                    title: 'PL and HCI: Better Together',
+                    publicationText: 'CACM 2021',
+                    link: 'https://canvas.uw.edu/files/87636522/'
+                },
+                instances: [
+                    {
+                        authorText: 'Eunice Jun, Melissa Birchfield, Nicole De Moura, Jeffrey Heer, René Just',
+                        title: 'Hypothesis Formalization: Empirical Findings, Software Limitations, and Design Implications',
+                        publicationText: 'TOCHI 2022',
+                        link: 'https://canvas.uw.edu/files/87636175/'
+                    },
+                    {
+                        authorText: 'Eunice Jun, Maureen Daum, Jared Roesch, Sarah Chasins, Emery Berger, René Just, Katharina Reinecke',
+                        title: ' Tea: A High-level Language and Runtime System for Automating Statistical Analysis',
+                        publicationText: 'UIST 2019',
+                        link: 'https://canvas.uw.edu/files/87636173/'
+                    }
+                ]
+            }
         },
 
         //
