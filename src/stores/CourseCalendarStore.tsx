@@ -622,7 +622,7 @@ export class CourseCalendarStore {
             date: DateTime.fromISO('2022-02-24'),
             awayJames: true,
 
-            dateTitle: 'Research Topic: Programming',
+            dateTitle: 'Research Topic: Programming as Interaction',
             guest: {
                 name: 'Eunice Jun',
                 link: 'https://homes.cs.washington.edu/~emjun/',
