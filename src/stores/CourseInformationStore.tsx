@@ -69,7 +69,8 @@ export class CourseInformationStore {
 
     // Links to submit project components
     linkSubmitProjectProposal: link = "https://canvas.uw.edu/courses/1519807/assignments/7075561";
-    linkSubmitProjectMilestone1: link = "https://canvas.uw.edu/courses/1519807/assignments/7099160";
+    linkSubmitProjectMilestone1Document: link = "https://canvas.uw.edu/courses/1519807/assignments/7099160";
+    linkSubmitProjectMilestone1Slides: link = "https://canvas.uw.edu/courses/1519807/assignments/7103427";
     linkSignupProjectMilestone1Presentation: link = "https://docs.google.com/document/d/1QK6ZglvPnWBGY5pCbLLHOEhxt19sx2CF-TTGXxn_v3c/edit?usp=sharing";
     linkSubmitProjectMilestone2: link = "https://canvas.uw.edu/courses/1519807/assignments/7099249";
     linkSignupProjectMilestone2Presentation: link = "https://docs.google.com/document/d/1LPryCVy4vjscDFb6WM6yJUX0kHjOm9TkvsPQ8Q3917s/edit?usp=sharing";
