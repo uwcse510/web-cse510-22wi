@@ -74,7 +74,7 @@ export class CourseInformationStore {
     linkSignupProjectMilestone1Presentation: link = "https://docs.google.com/document/d/1QK6ZglvPnWBGY5pCbLLHOEhxt19sx2CF-TTGXxn_v3c/edit?usp=sharing";
     linkSubmitProjectMilestone2: link = "https://canvas.uw.edu/courses/1519807/assignments/7099249";
     linkSignupProjectMilestone2Presentation: link = "https://docs.google.com/document/d/1LPryCVy4vjscDFb6WM6yJUX0kHjOm9TkvsPQ8Q3917s/edit?usp=sharing";
-    linkSubmitProjectReport: link = null; // TODO 'https://canvas.uw.edu/courses/1371984/assignments/5391093';
+    linkSubmitProjectReport: link = "https://canvas.uw.edu/courses/1519807/assignments/7170960";
 
     // Reading on paper writing
     readingWobbrockPaperWriting: Reading = {
@@ -91,7 +91,7 @@ export class CourseInformationStore {
     assignmentDateAvailableStatisticsLab: assignmentDate =
         '11:59pm ' + DateTime.fromISO('2022-02-17').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
     assignmentDateDueStatisticsLab: assignmentDate =
-        '11:59pm ' + DateTime.fromISO('2022-03-04').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
+        '11:59pm ' + DateTime.fromISO('2022-03-06').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
 
     linkStatisticsLab: link = 'https://canvas.uw.edu/files/88095585/download?download_frd=1'; 
     linkSubmitStatisticsLab: link = 'https://canvas.uw.edu/courses/1519807/assignments/7128609'; 
@@ -100,12 +100,10 @@ export class CourseInformationStore {
     // Exam
     //
 
-    assignmentDateAvailableExam: assignmentDate = null;
-        // TODO
-        // 'by 11:59pm ' + DateTime.fromISO('2020-06-05').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
-    assignmentDateDueExam: assignmentDate = null;
-        // TODO
-        // 'by 11:59pm ' + DateTime.fromISO('2020-06-08').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
+    assignmentDateAvailableExam: link =
+        'by 11:59pm ' + DateTime.fromISO('2022-03-10').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
+    assignmentDateDueExam: link =
+        'by 11:59pm ' + DateTime.fromISO('2022-03-14').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
 
-    linkSubmitExam: link = null; // TODO 'https://canvas.uw.edu/courses/1371984/assignments/5391063';
+    linkSubmitExam: link = "https://canvas.uw.edu/courses/1519807/assignments/7170957"
 }

@@ -672,7 +672,7 @@ export class CourseCalendarStore {
         // Statistics Lab
         //
         {
-            date: DateTime.fromISO('2022-03-04'),
+            date: DateTime.fromISO('2022-03-06'),
 
             dateTitle: 'Statistics Lab Due',
             contentNonstandard: <ContentDueStatisticsLab />
