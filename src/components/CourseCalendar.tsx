@@ -105,7 +105,8 @@ function renderVirtual(calendarDateCurrent: CalendarDate) {
 
 function renderCalendarDateCurrent(calendarDateCurrent: CalendarDate) {
     const [expanded, setExpanded] = React.useState<boolean>(
-        calendarDateCurrent.date.diffNow("days").days >= -1
+        true
+        // calendarDateCurrent.date.diffNow("days").days >= -1
     );
 
     const toggleExpanded = () => {
